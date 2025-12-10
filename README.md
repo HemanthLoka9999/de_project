@@ -131,3 +131,4 @@ de_project/
 * **Workflow:** `raw → clean → data_quality → scripts → notebooks → reports`
 * Future modules will be added progressively, maintaining the same folder structure.
 * Focus is on **reproducibility, clarity, and professional presentation**.
+
