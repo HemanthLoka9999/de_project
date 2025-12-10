@@ -1,0 +1,14 @@
+2025-11-22 22:24:20,500 - INFO - Pipeline started.
+2025-11-22 22:24:20,502 - ERROR - Pipeline failed: [Errno 2] No such file or directory: '..\\raw\\day1_bakery_sales.csv'
+2025-11-22 22:24:37,053 - INFO - Pipeline started.
+2025-11-22 22:24:37,053 - ERROR - Pipeline failed: [Errno 2] No such file or directory: '..\\raw\\day1_bakery_sales.csv'
+2025-11-23 21:54:45,918 - INFO - Pipeline started.
+2025-11-23 21:54:45,923 - ERROR - Pipeline failed: [Errno 2] No such file or directory: '..\\raw\\day1_bakery_sales.csv'
+2025-11-24 05:27:59,655 - INFO - Pipeline started.
+2025-11-24 05:27:59,666 - ERROR - Pipeline failed: [Errno 2] No such file or directory: '..\\raw\\day1_bakery_sales.csv'
+2025-11-25 11:03:35,182 - INFO - Pipeline started.
+2025-11-25 11:03:35,199 - ERROR - Pipeline failed: [Errno 2] No such file or directory: '..\\raw\\day1_bakery_sales.csv'
+2025-11-25 11:04:22,265 - INFO - Pipeline started.
+2025-11-25 11:04:22,265 - ERROR - Pipeline failed: [Errno 2] No such file or directory: '..\\raw\\day1_bakery_sales.csv'
+2025-11-25 11:13:10,286 - INFO - Pipeline started.
+2025-11-25 11:13:10,525 - INFO - Pipeline completed successfully.

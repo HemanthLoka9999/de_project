@@ -1,0 +1,61 @@
+2025-11-26 11:55:33,107 - INFO - Pipeline started. - 76
+2025-11-26 11:56:39,991 - INFO - Pipeline completed successfully. Total rows: 525461, Missing Customer IDs: 107927, Duplicate keys: 521087, Invalid flagged rows: 107927 - 97
+2025-11-26 11:59:47,259 - INFO - Pipeline started. - 76
+2025-11-26 12:00:59,925 - INFO - Pipeline completed successfully. Total rows: 525461, Missing Customer IDs: 107927, Duplicate keys: 521087, Invalid flagged rows: 107927 - 97
+2025-11-26 12:03:18,675 - INFO - Pipeline started. - 78
+2025-11-26 12:04:08,553 - INFO - Pipeline completed successfully. Total rows: 7308, Missing Customer IDs: 910, Duplicate keys: 0, Invalid flagged rows: 910 - 99
+2025-11-26 12:04:45,440 - INFO - Pipeline started. - 78
+2025-11-26 12:05:23,622 - INFO - Pipeline completed successfully. Total rows: 7308, Missing Customer IDs: 910, Duplicate keys: 0, Invalid flagged rows: 910 - 99
+2025-11-26 12:08:53,150 - INFO - Pipeline started. - 78
+2025-11-26 12:09:30,947 - INFO - Pipeline completed successfully. Total rows: 7308, Missing Customer IDs: 910, Duplicate keys: 0, Invalid flagged rows: 910 - 99
+2025-11-26 15:04:27,118 - INFO - Pipeline started. - 117
+2025-11-26 15:05:02,987 - INFO - Pipeline completed successfully. Total rows: 7308, Missing Customer IDs: 910, Duplicate keys: 0, Invalid flagged rows: 910 - 141
+2025-11-26 15:05:03,026 - INFO - Orders per country top 5:
+          Country  total_orders
+0  UNITED KINGDOM          6603
+1         GERMANY           201
+2            EIRE           147
+3          FRANCE           111
+4        PORTUGAL            24 - 167
+2025-11-26 15:05:03,026 - INFO - Missing Customer IDs: 910 - 168
+2025-11-26 15:05:03,037 - INFO - Orders per country top 5:
+          Country  total_orders
+0  UNITED KINGDOM          6603
+1         GERMANY           201
+2            EIRE           147
+3          FRANCE           111
+4        PORTUGAL            24 - 177
+2025-11-26 15:05:03,037 - INFO - Missing Customer IDs: 910 - 178
+2025-11-26 15:08:42,657 - INFO - Pipeline started. - 117
+2025-11-26 15:09:18,993 - INFO - Pipeline completed successfully. Total rows: 7308, Missing Customer IDs: 910, Duplicate keys: 0, Invalid flagged rows: 910 - 141
+2025-11-26 15:09:19,039 - INFO - Orders per country top 5:
+          Country  total_orders
+0  UNITED KINGDOM          6603
+1         GERMANY           201
+2            EIRE           147
+3          FRANCE           111
+4        PORTUGAL            24 - 167
+2025-11-26 15:09:19,039 - INFO - Missing Customer IDs: 910 - 168
+2025-11-26 15:09:19,053 - INFO - Python Missing Customer IDs: 910 - 177
+2025-11-26 15:09:19,053 - INFO - SQL Missing Customer IDs: 910 - 178
+2025-11-26 15:12:00,106 - INFO - Pipeline started. - 117
+2025-11-26 15:12:38,136 - INFO - Pipeline completed successfully. Total rows: 7308, Missing Customer IDs: 910, Duplicate keys: 0, Invalid flagged rows: 910 - 141
+2025-11-26 15:12:38,178 - INFO - Orders per country top 5:
+          Country  total_orders
+0  UNITED KINGDOM          6603
+1         GERMANY           201
+2            EIRE           147
+3          FRANCE           111
+4        PORTUGAL            24 - 167
+2025-11-26 15:12:38,178 - INFO - Missing Customer IDs: 910 - 168
+2025-11-26 15:12:38,184 - INFO - Python Missing Customer IDs: 910 - 177
+2025-11-26 15:13:40,997 - INFO - Pipeline started. - 117
+2025-11-26 15:14:16,105 - INFO - Pipeline completed successfully. Total rows: 7308, Missing Customer IDs: 910, Duplicate keys: 0, Invalid flagged rows: 910 - 141
+2025-11-26 15:14:16,148 - INFO - Orders per country top 5:
+          Country  total_orders
+0  UNITED KINGDOM          6603
+1         GERMANY           201
+2            EIRE           147
+3          FRANCE           111
+4        PORTUGAL            24 - 167
+2025-11-26 15:14:16,148 - INFO - Missing Customer IDs: 910 - 168
