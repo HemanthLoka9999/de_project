@@ -1,0 +1,14 @@
+2025-12-15 23:43:55,437 - INFO - Pipeline started. - Line:110
+2025-12-15 23:43:56,102 - INFO - df_customers: Dropped 0 duplicates based on ['CUSTOMER_ID'] - Line:66
+2025-12-15 23:43:56,108 - INFO - df_customers: Cleaned DataFrame with shape: (99441, 5), columns: ['CUSTOMER_ID', 'CUSTOMER_UNIQUE_ID', 'CUSTOMER_ZIP_CODE_PREFIX', 'CUSTOMER_CITY', 'CUSTOMER_STATE'] - Line:71
+2025-12-15 23:43:56,500 - INFO - df_orders: Dropped 0 duplicates based on ['ORDER_ID'] - Line:66
+2025-12-15 23:43:56,507 - INFO - df_orders: Cleaned DataFrame with shape: (99441, 8), columns: ['ORDER_ID', 'CUSTOMER_ID', 'ORDER_STATUS', 'ORDER_PURCHASE_TIMESTAMP', 'ORDER_APPROVED_AT', 'ORDER_DELIVERED_CARRIER_DATE', 'ORDER_DELIVERED_CUSTOMER_DATE', 'ORDER_ESTIMATED_DELIVERY_DATE'] - Line:71
+2025-12-15 23:43:56,601 - INFO - df_order_items: Dropped 112629 duplicates based on ['ORDER_ITEM_ID'] - Line:66
+2025-12-15 23:43:56,610 - INFO - df_order_items: Cleaned DataFrame with shape: (21, 7), columns: ['ORDER_ID', 'ORDER_ITEM_ID', 'PRODUCT_ID', 'SELLER_ID', 'SHIPPING_LIMIT_DATE', 'PRICE', 'FREIGHT_VALUE'] - Line:71
+2025-12-15 23:43:56,638 - INFO - df_products: Dropped 0 duplicates based on ['PRODUCT_ID'] - Line:66
+2025-12-15 23:43:56,646 - INFO - df_products: Cleaned DataFrame with shape: (32951, 9), columns: ['PRODUCT_ID', 'PRODUCT_CATEGORY_NAME', 'PRODUCT_NAME_LENGHT', 'PRODUCT_DESCRIPTION_LENGHT', 'PRODUCT_PHOTOS_QTY', 'PRODUCT_WEIGHT_G', 'PRODUCT_LENGTH_CM', 'PRODUCT_HEIGHT_CM', 'PRODUCT_WIDTH_CM'] - Line:71
+2025-12-15 23:43:56,667 - INFO - df_customers Validation Summary: {'missing_keys': {'CUSTOMER_ID': 0}, 'duplicate_keys': {'CUSTOMER_ID': 0}, 'invalid_rows': 0} - Line:96
+2025-12-15 23:43:56,691 - INFO - df_orders Validation Summary: {'missing_keys': {'ORDER_ID': 0}, 'duplicate_keys': {'ORDER_ID': 0}, 'invalid_rows': 0} - Line:96
+2025-12-15 23:43:56,695 - INFO - df_order_items Validation Summary: {'missing_keys': {'ORDER_ITEM_ID': 0}, 'duplicate_keys': {'ORDER_ITEM_ID': 0}, 'invalid_rows': 0} - Line:96
+2025-12-15 23:43:56,700 - INFO - df_products Validation Summary: {'missing_keys': {'PRODUCT_ID': 0}, 'duplicate_keys': {'PRODUCT_ID': 0}, 'invalid_rows': 0} - Line:96
+2025-12-15 23:43:57,713 - INFO - Pipeline completed successfully. - Line:139

@@ -1,0 +1,40 @@
+[33mcommit b7a7a0a59c668e9184b7d6c48de879735c325fd9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HemanthLoka9999-patch-1[m[33m)[m
+Author: Loka Hemanth <132568666+HemanthLoka9999@users.noreply.github.com>
+Date:   Wed Dec 10 19:58:02 2025 +0530
+
+    Update project overview and structure in README
+
+[33mcommit baff7481b9b2abb9a077f16ca64593a99afee5a3[m
+Author: Loka Hemanth <132568666+HemanthLoka9999@users.noreply.github.com>
+Date:   Wed Dec 10 19:55:40 2025 +0530
+
+    docs: enhance README with detailed project structure, tools, and instructions
+    
+    Added detailed project overview, structure, tools, and completed modules.Updated README to include full project overview, folder structure, completed modules, skills applied, and instructions for running scripts and notebooks. Focused on clarity, reproducibility, and professional presentation.
+
+[33mcommit 75c1370ca8e4a8647b18a58f67e84e8ffcb8b714[m
+Author: Hemanth Loka <lokahemanth2002@gmail.com>
+Date:   Wed Dec 10 19:37:36 2025 +0530
+
+    fix: updated all the 2days filenames
+
+[33mcommit 993c6c942eccd90305d92197359023b4f08baca8[m
+Merge: ca3f7e8 a3e7251
+Author: Loka Hemanth <132568666+HemanthLoka9999@users.noreply.github.com>
+Date:   Wed Dec 10 17:36:53 2025 +0530
+
+    Merge pull request #1 from HemanthLoka9999/feature-x
+    
+    fix: updated bakery sales inspection script
+
+[33mcommit a3e7251d9fdf7f47e417a1ca24fe3eca49c93f40[m
+Author: Hemanth Loka <lokahemanth2002@gmail.com>
+Date:   Wed Dec 10 17:27:45 2025 +0530
+
+    fix: updated bakery sales inspection script
+
+[33mcommit ca3f7e811e774c4e40b6d72241044ea783dcc873[m
+Author: ﻿Hemanth Loka <lokahemanth2002@gmail.com>
+Date:   Wed Dec 10 11:50:26 2025 +0530
+
+    Initial commit: added project files
