@@ -35,77 +35,43 @@ logging.basicConfig(
 )
 
 # ---------------------------------------------------------
-# AUTO CLEAN FUNCTION (WITH DATE THRESHOLD)
+# AUTO CLEAN FUNCTION
 # ---------------------------------------------------------
-def clean_df_auto(
-    df: pd.DataFrame,
-    df_name: str,
-    dup_subset: dict = None,
-    date_threshold: float = 0.7
-) -> pd.DataFrame:
-
+def clean_df_auto(df: pd.DataFrame, df_name: str, dup_subset: dict = None, date_threshold: float = 0.7) -> pd.DataFrame:
     try:
-        # Standardize column names
         df.columns = df.columns.str.upper()
-
-        # Identify column types
         cat_cols = [c for c in df.select_dtypes(include='object').columns if 'ID' not in c]
         num_cols = df.select_dtypes(include='number').columns.tolist()
 
-        # -----------------------------
-        # TEXT CLEANING
-        # -----------------------------
-        df[cat_cols] = df[cat_cols].apply(
-            lambda x: x.str.strip().str.upper()
-        )
+        # Text cleaning
+        df[cat_cols] = df[cat_cols].apply(lambda x: x.str.strip().str.upper())
 
-        # -----------------------------
-        # MISSING VALUE HANDLING
-        # -----------------------------
+        # Missing values
         for col in num_cols:
             df[col] = df[col].fillna(0)
-
         for col in cat_cols:
             df[col] = df[col].fillna('UNKNOWN')
 
-        # -----------------------------
-        # SMART DATE DETECTION
-        # -----------------------------
+        # Smart date detection
         for col in cat_cols.copy():
-            parsed = pd.to_datetime(
-                df[col],
-                errors='coerce',
-                infer_datetime_format=True
-            )
-
+            parsed = pd.to_datetime(df[col], errors='coerce')
             valid_ratio = parsed.notna().mean()
-
             if valid_ratio >= date_threshold:
                 df[col] = parsed
                 cat_cols.remove(col)
-                logging.info(
-                    f"{df_name}: Column '{col}' converted to datetime "
-                    f"(valid ratio: {valid_ratio:.2f})"
-                )
+                logging.info(f"{df_name}: Column '{col}' converted to datetime (valid ratio: {valid_ratio:.2f})")
 
-        # -----------------------------
-        # DUPLICATE HANDLING
-        # -----------------------------
+        # Duplicate handling
         if dup_subset and df_name in dup_subset:
             subset_cols = [c.upper() for c in dup_subset[df_name]]
         else:
             subset_cols = None
-
         before = df.shape[0]
         df = df.drop_duplicates(subset=subset_cols, keep='first')
         after = df.shape[0]
-
-        logging.info(
-            f"{df_name}: Dropped {before - after} duplicates "
-            f"based on {subset_cols or 'all columns'}"
-        )
-
+        logging.info(f"{df_name}: Dropped {before - after} duplicates based on {subset_cols or 'all columns'}")
         logging.info(f"{df_name}: Final shape {df.shape}")
+
         return df
 
     except Exception as e:
@@ -131,9 +97,25 @@ def validate_df(df: pd.DataFrame, df_name: str, dup_subset: dict) -> dict:
 
     summary_df = pd.DataFrame([results])
     summary_df.to_csv(dq_folder / f"{df_name}_quality.csv", index=False)
-
     logging.info(f"{df_name}: Validation completed")
     return results
+
+# ---------------------------------------------------------
+# FLAG INVALID ROWS FUNCTION
+# ---------------------------------------------------------
+def flag_invalid_rows(df: pd.DataFrame, df_name: str, rules: dict) -> pd.DataFrame:
+    invalid_mask = pd.Series(False, index=df.index)
+    for col, rule in rules.items():
+        if col in df.columns:
+            invalid_mask |= rule(df[col])
+    invalid_df = df[invalid_mask]
+    if not invalid_df.empty:
+        invalid_path = dq_folder / f"{df_name}_invalid_rows.csv"
+        invalid_df.to_csv(invalid_path, index=False)
+        logging.warning(f"{df_name}: {invalid_df.shape[0]} invalid rows flagged")
+    else:
+        logging.info(f"{df_name}: No invalid rows found")
+    return invalid_df
 
 # ---------------------------------------------------------
 # MAIN PIPELINE
@@ -141,6 +123,7 @@ def validate_df(df: pd.DataFrame, df_name: str, dup_subset: dict) -> dict:
 def run_pipeline():
     logging.info("Pipeline started")
 
+    # Load datasets
     df_customers = pd.read_csv(CUSTOMERS_PATH)
     df_orders = pd.read_csv(ORDERS_PATH)
     df_order_items = pd.read_csv(ORDER_ITEMS_PATH)
@@ -153,16 +136,29 @@ def run_pipeline():
         'df_products': ['PRODUCT_ID']
     }
 
+    # Clean datasets
     df_customers = clean_df_auto(df_customers, 'df_customers', dup_subset)
     df_orders = clean_df_auto(df_orders, 'df_orders', dup_subset)
     df_order_items = clean_df_auto(df_order_items, 'df_order_items', dup_subset)
     df_products = clean_df_auto(df_products, 'df_products', dup_subset)
 
+    # Flag invalid rows (examples)
+    flag_invalid_rows(df_orders, "df_orders", {
+        'PRICE': lambda x: x <= 0,
+        'ORDER_PURCHASE_TIMESTAMP': lambda x: x.isna()
+    })
+    flag_invalid_rows(df_order_items, "df_order_items", {
+        'PRICE': lambda x: x <= 0,
+        'FREIGHT_VALUE': lambda x: x < 0
+    })
+
+    # Validation
     validate_df(df_customers, 'df_customers', dup_subset)
     validate_df(df_orders, 'df_orders', dup_subset)
     validate_df(df_order_items, 'df_order_items', dup_subset)
     validate_df(df_products, 'df_products', dup_subset)
 
+    # Save clean datasets
     df_customers.to_csv(CLEAN_CUSTOMERS, index=False)
     df_orders.to_csv(CLEAN_ORDERS, index=False)
     df_order_items.to_csv(CLEAN_ORDER_ITEMS, index=False)
