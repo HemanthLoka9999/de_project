@@ -1,2 +1,2 @@
-missing_keys,duplicate_keys,invalid_rows
-{'PRODUCT_ID': 0},{'PRODUCT_ID': 0},0
+row_count,null_counts,duplicate_keys
+32951,"{'PRODUCT_ID': 0, 'PRODUCT_CATEGORY_NAME': 0, 'PRODUCT_NAME_LENGHT': 0, 'PRODUCT_DESCRIPTION_LENGHT': 0, 'PRODUCT_PHOTOS_QTY': 0, 'PRODUCT_WEIGHT_G': 0, 'PRODUCT_LENGTH_CM': 0, 'PRODUCT_HEIGHT_CM': 0, 'PRODUCT_WIDTH_CM': 0}",{'PRODUCT_ID': 0}

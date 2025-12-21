@@ -1,0 +1,1201 @@
+order_id,customer_id,order_date,product_category,revenue,discount,quantity,payment_method,city
+1,1102,2023-01-07,Groceries,1811.6,151.89,6,Debit Card,Delhi
+2,1270,2023-05-17,Home,2627.63,92.97,1,Debit Card,Chennai
+3,1106,2023-06-25,Groceries,465.73,219.6,1,Debit Card,Delhi
+4,1071,2023-11-24,Home,1243.87,,1,UPI,Bangalore
+5,1188,2023-11-11,Electronics,1669.33,,1,UPI,Bangalore
+6,1020,2023-08-03,Groceries,1662.74,179.19,2,Debit Card,Bangalore
+7,1102,2023-03-23,Electronics,896.41,,2,UPI,Pune
+8,1121,2023-08-11,Electronics,71.62,247.31,3,Credit Card,Hyderabad
+9,1214,2023-04-13,Groceries,1099.39,,1,Debit Card,Bangalore
+10,1087,2023-09-30,Beauty,470.19,63.23,3,Debit Card,Hyderabad
+11,1099,2023-01-14,Electronics,988.96,248.07,4,Credit Card,Bangalore
+12,1151,2023-06-08,Clothing,4019.19,,3,Debit Card,Pune
+13,1130,2023-06-01,Home,861.06,64.81,5,Net Banking,Delhi
+14,1149,2023-04-18,Electronics,2435.61,91.72,2,Debit Card,Chennai
+15,1257,2023-07-07,Groceries,334.71,,2,UPI,Chennai
+16,1293,2023-10-28,Groceries,1396.38,160.57,1,UPI,Bangalore
+17,1191,2023-04-08,Groceries,4728.08,77.97,1,UPI,Chennai
+18,1276,2023-05-11,Electronics,388.96,45.83,4,UPI,Bangalore
+19,1160,2023-10-20,Clothing,95.03,,6,UPI,Bangalore
+20,1021,2023-06-20,Home,909.11,179.15,4,UPI,Mumbai
+21,1252,2023-07-02,Groceries,409.64,223.08,5,Credit Card,Mumbai
+22,1235,2023-12-30,Electronics,1827.82,,1,COD,Mumbai
+23,1048,2023-02-08,Home,3043.77,20.05,1,UPI,Hyderabad
+24,1058,2023-01-15,Electronics,759.04,46.9,4,Debit Card,Mumbai
+25,1169,2023-01-04,Groceries,440.24,275.26,4,Debit Card,Bangalore
+26,1187,2023-12-15,Electronics,810.85,153.13,4,UPI,Pune
+27,1270,2023-07-29,Beauty,1712.43,,2,COD,Pune
+28,1189,2023-06-10,Clothing,205.91,21.03,3,Credit Card,Delhi
+29,1174,2023-01-16,Clothing,1273.32,,3,Credit Card,Mumbai
+30,1050,2023-04-18,Electronics,1346.1,,1,Debit Card,Pune
+31,1054,2023-11-07,Clothing,1283.3,68.6,2,UPI,Mumbai
+32,1243,2023-08-15,Home,480.52,41.92,4,Debit Card,Delhi
+33,1130,2023-06-19,Beauty,1598.34,121.18,1,UPI,Pune
+34,1134,2023-02-03,Clothing,351.01,,2,Net Banking,Bangalore
+35,1020,2023-09-08,Clothing,346.68,260.94,5,Credit Card,Hyderabad
+36,1166,2023-09-04,Groceries,2572.28,184.83,6,Debit Card,Mumbai
+37,1273,2023-09-26,Home,1824.61,,2,UPI,Pune
+38,1088,2023-05-21,Groceries,82.61,43.4,7,Debit Card,Pune
+39,1013,2023-10-01,Clothing,430.62,,1,Debit Card,Delhi
+40,1241,2023-04-06,Clothing,386.58,203.42,3,Credit Card,Bangalore
+41,1264,2023-08-15,Groceries,601.98,68.21,7,Debit Card,Chennai
+42,1052,2023-02-08,Electronics,608.32,265.24,4,Credit Card,Pune
+43,1091,2023-10-29,Groceries,302.48,66.55,6,Net Banking,Hyderabad
+44,1263,2023-01-29,Clothing,825.07,100.91,5,Credit Card,Delhi
+45,1034,2023-11-14,Home,1865.41,,6,Net Banking,Pune
+46,1205,2023-09-02,Electronics,1300.92,195.12,6,Net Banking,Pune
+47,1080,2023-08-24,Groceries,1419.88,212.82,2,Credit Card,Delhi
+48,1049,2023-07-04,Groceries,308.56,42.48,1,UPI,Delhi
+49,1001,2023-09-29,Groceries,3702.2,256.34,1,Credit Card,Mumbai
+50,1053,2023-08-24,Electronics,2439.84,164.53,6,Net Banking,Pune
+51,1105,2023-08-27,Groceries,2077.26,146.68,4,UPI,Chennai
+52,1259,2023-09-23,Groceries,2234.82,294.52,1,Credit Card,Hyderabad
+53,1190,2023-12-25,Groceries,3299.5,224.71,6,Net Banking,Bangalore
+54,1217,2023-12-06,Groceries,1213.98,44.22,1,Credit Card,Bangalore
+55,1043,2023-03-06,Groceries,353.2,229.4,4,Debit Card,Chennai
+56,1161,2023-06-26,Home,1217.99,37.62,5,UPI,Delhi
+57,1201,2023-01-03,Clothing,1768.86,17.97,7,UPI,Delhi
+58,1269,2023-05-22,Home,1836.91,127.05,6,Debit Card,Delhi
+59,1270,2023-06-07,Groceries,1132.39,,3,UPI,Pune
+60,1214,2023-11-20,Electronics,135.1,60.72,3,UPI,Delhi
+61,1251,2023-05-26,Electronics,732.56,205.07,6,Net Banking,Delhi
+62,1189,2023-10-20,Clothing,3277.43,,2,UPI,Pune
+63,1295,2023-06-02,Home,1192.78,,5,COD,Pune
+64,1212,2023-07-12,Groceries,1063.49,156.55,2,COD,Chennai
+65,1207,2023-03-14,Home,514.77,207.19,7,UPI,Mumbai
+66,1236,2023-11-01,Groceries,837.49,68.83,3,UPI,Pune
+67,1052,2023-12-10,Clothing,2891.52,226.23,4,Debit Card,Hyderabad
+68,1279,2023-05-20,Electronics,1436.6,298.73,6,Credit Card,Delhi
+69,1216,2023-07-06,Clothing,1950.94,203.04,7,UPI,Mumbai
+70,1251,2023-10-20,Clothing,975.92,,1,Debit Card,Bangalore
+71,1187,2023-03-02,Electronics,1394.9,,3,UPI,Chennai
+72,1040,2023-07-17,Electronics,477.64,14.6,5,Net Banking,Mumbai
+73,1156,2023-10-22,Groceries,1534.81,221.68,3,UPI,Pune
+74,1014,2023-11-15,Groceries,819.5,,5,UPI,Delhi
+75,1064,2023-10-29,Beauty,896.25,27.89,5,UPI,Delhi
+76,1008,2023-12-10,Beauty,1401.47,,6,COD,Delhi
+77,1128,2023-01-11,Groceries,3453.92,69.37,5,Debit Card,Mumbai
+78,1135,2023-03-03,Clothing,158.38,174.29,2,Net Banking,Delhi
+79,1062,2023-11-29,Groceries,2387.8,198.37,7,Credit Card,Pune
+80,1138,2023-08-14,Home,634.02,97.76,4,UPI,Mumbai
+81,1080,2023-06-02,Electronics,786.21,143.39,3,UPI,Delhi
+82,1162,2023-07-18,Clothing,277.59,91.01,4,Credit Card,Bangalore
+83,1288,2023-02-21,Home,707.8,117.12,7,Credit Card,Bangalore
+84,1260,2023-09-17,Clothing,899.11,56.27,1,Debit Card,Hyderabad
+85,1230,2023-02-28,Groceries,236.38,266.81,7,UPI,Delhi
+86,1040,2023-03-13,Groceries,953.59,12.9,3,COD,Delhi
+87,1027,2023-05-28,Electronics,3346.57,265.9,4,UPI,Mumbai
+88,1134,2023-12-15,Clothing,349.65,175.79,4,COD,Mumbai
+89,1200,2023-03-04,Clothing,1920.95,,6,UPI,Delhi
+90,1267,2023-11-06,Electronics,927.49,,6,Credit Card,Hyderabad
+91,1032,2023-08-31,Electronics,1475.66,157.25,7,UPI,Delhi
+92,1047,2023-11-26,Home,486.71,154.74,7,Credit Card,Pune
+93,1061,2023-04-17,Clothing,504.5,41.94,1,Credit Card,Mumbai
+94,1215,2023-08-14,Groceries,287.89,,5,Credit Card,Delhi
+95,1292,2023-11-09,Clothing,297.72,79.91,3,Credit Card,Mumbai
+96,1098,2023-08-06,Beauty,530.43,14.55,6,Debit Card,Delhi
+97,1171,2023-08-29,Clothing,1548.56,114.43,3,Debit Card,Chennai
+98,1213,2023-09-16,Clothing,2727.34,36.05,1,Net Banking,Mumbai
+99,1034,2023-09-19,Home,2083.22,84.48,6,UPI,Hyderabad
+100,1226,2023-01-05,Home,1437.73,36.83,6,Debit Card,Chennai
+101,1100,2023-09-18,Electronics,369.42,39.27,5,Credit Card,Pune
+102,1130,2023-02-23,Home,689.62,67.71,3,Credit Card,Delhi
+103,1256,2023-02-16,Groceries,610.94,299.96,3,Credit Card,Pune
+104,1004,2023-08-03,Groceries,566.15,10.63,3,UPI,Mumbai
+105,1217,2023-06-26,Electronics,1099.34,195.22,5,UPI,Chennai
+106,1254,2023-01-09,Electronics,987.29,,6,UPI,Pune
+107,1282,2023-04-09,Groceries,581.72,,1,UPI,Hyderabad
+108,1206,2023-01-20,Groceries,707.96,37.15,3,Debit Card,Mumbai
+109,1014,2023-08-29,Clothing,2336.2,286.97,4,Debit Card,Chennai
+110,1041,2023-03-02,Groceries,2127.74,187.17,5,COD,Pune
+111,1178,2023-06-27,Home,726.45,,2,Debit Card,Chennai
+112,1062,2023-12-04,Electronics,3156.14,269.26,1,UPI,Chennai
+113,1230,2023-03-03,Groceries,3878.42,161.3,4,Net Banking,Pune
+114,1240,2023-05-25,Electronics,709.75,,3,Net Banking,Bangalore
+115,1051,2023-08-04,Home,735.14,232.51,2,Credit Card,Delhi
+116,1095,2023-01-03,Groceries,1002.38,,1,Credit Card,Mumbai
+117,1221,2023-06-09,Beauty,3634.72,150.27,5,COD,Mumbai
+118,1230,2023-08-15,Electronics,2652.06,101.51,2,Credit Card,Mumbai
+119,1236,2023-09-26,Electronics,300.86,238.79,6,COD,Chennai
+120,1142,2023-04-30,Clothing,658.54,207.72,7,UPI,Pune
+121,1170,2023-03-30,Clothing,1084.23,267.74,2,UPI,Delhi
+122,1028,2023-11-25,Electronics,1011.32,210.83,7,Credit Card,Hyderabad
+123,1035,2023-03-09,Beauty,517.6,,4,Credit Card,Mumbai
+124,1012,2023-12-23,Electronics,2594.24,,1,Net Banking,Pune
+125,1159,2023-04-08,Clothing,1517.9,40.4,4,COD,Delhi
+126,1186,2023-09-24,Home,2330.51,87.7,4,Credit Card,Delhi
+127,1242,2023-04-15,Clothing,2490.79,160.86,3,UPI,Bangalore
+128,1085,2023-11-19,Home,1920.69,174.07,5,Net Banking,Pune
+129,1283,2023-05-03,Electronics,765.09,14.44,2,Debit Card,Mumbai
+130,1065,2023-01-29,Groceries,1374.61,236.37,1,UPI,Chennai
+131,1169,2023-05-17,Electronics,430.75,114.87,6,Credit Card,Delhi
+132,1044,2023-07-14,Electronics,1519.72,127.86,5,Debit Card,Delhi
+133,1061,2023-08-14,Beauty,420.05,244.72,5,Debit Card,Hyderabad
+134,1133,2023-11-28,Electronics,1639.81,119.99,1,Credit Card,Bangalore
+135,1283,2023-06-19,Groceries,387.01,,5,UPI,Delhi
+136,1027,2023-01-09,Clothing,446.07,,3,COD,Delhi
+137,1107,2023-02-09,Clothing,450.8,287.21,5,Debit Card,Chennai
+138,1043,2023-01-25,Home,136.39,30.42,3,Credit Card,Chennai
+139,1285,2023-09-18,Electronics,1626.17,,2,UPI,Hyderabad
+140,1127,2023-08-14,Groceries,1774.92,155.92,2,Debit Card,Pune
+141,1230,2023-05-04,Beauty,1012.16,153.05,4,UPI,Hyderabad
+142,1189,2023-02-07,Groceries,402.17,11.15,3,UPI,Hyderabad
+143,1224,2023-11-24,Beauty,320.7,,6,Credit Card,Chennai
+144,1282,2023-09-08,Electronics,228.18,,2,UPI,Pune
+145,1120,2023-06-25,Clothing,490.46,291.9,5,Debit Card,Chennai
+146,1115,2023-03-31,Clothing,2927.1,56.16,1,UPI,Bangalore
+147,1232,2023-02-06,Groceries,559.75,112.7,1,Debit Card,Mumbai
+148,1258,2023-11-12,Beauty,692.85,131.65,7,UPI,Mumbai
+149,1197,2023-06-25,Clothing,359.58,,3,UPI,Bangalore
+150,1136,2023-10-11,Groceries,359.79,,6,UPI,Mumbai
+151,1164,2023-03-22,Electronics,1113.83,72.5,4,COD,Pune
+152,1224,2023-04-24,Groceries,1345.04,,5,Net Banking,Chennai
+153,1233,2023-02-09,Groceries,536.81,221.47,3,UPI,Mumbai
+154,1171,2023-10-28,Beauty,280.36,155.08,7,Debit Card,Pune
+155,1151,2023-08-12,Groceries,841.19,,1,Debit Card,Chennai
+156,1159,2023-11-14,Clothing,584.21,,3,COD,Pune
+157,1095,2023-12-15,Electronics,543.47,64.38,5,Credit Card,Bangalore
+158,1232,2023-04-25,Electronics,3949.54,13.06,6,Debit Card,Hyderabad
+159,1179,2023-07-05,Electronics,1251.47,,6,UPI,Bangalore
+160,1112,2023-11-19,Clothing,1249.69,171.48,2,Credit Card,Mumbai
+161,1051,2023-02-25,Home,880.96,268.64,5,COD,Chennai
+162,1267,2023-02-09,Groceries,795.32,93.28,7,Credit Card,Pune
+163,1294,2023-12-20,Groceries,1022.2,105.05,2,UPI,Mumbai
+164,1112,2023-02-09,Electronics,1601.57,43.53,2,UPI,Mumbai
+165,1100,2023-12-13,Home,1517.38,122.7,2,Debit Card,Hyderabad
+166,1112,2023-08-25,Groceries,474.05,20.79,3,Debit Card,Mumbai
+167,1080,2023-10-16,Electronics,1038.05,276.1,7,Credit Card,Hyderabad
+168,1186,2023-09-19,Groceries,809.15,205.2,1,COD,Chennai
+169,1112,2023-08-04,Groceries,2613.14,,6,UPI,Chennai
+170,1001,2023-05-27,Electronics,1377.71,,3,UPI,Pune
+171,1129,2023-12-02,Groceries,1044.44,147.17,1,COD,Hyderabad
+172,1219,2023-06-17,Groceries,206.14,160.71,6,UPI,Bangalore
+173,1053,2023-04-02,Electronics,1257.58,65.27,7,UPI,Chennai
+174,1223,2023-12-19,Beauty,227.59,143.99,7,Credit Card,Pune
+175,1224,2023-02-28,Home,749.55,271.88,5,Net Banking,Bangalore
+176,1125,2023-02-28,Groceries,268.96,24.75,6,UPI,Chennai
+177,1129,2023-10-31,Groceries,1468.47,260.43,6,COD,Chennai
+178,1052,2023-06-18,Clothing,466.19,108.87,7,Debit Card,Pune
+179,1171,2023-09-26,Groceries,756.82,,6,UPI,Pune
+180,1217,2023-12-29,Groceries,2799.29,,4,Debit Card,Delhi
+181,1159,2023-02-14,Electronics,400.26,204.55,5,Credit Card,Mumbai
+182,1197,2023-12-11,Groceries,992.66,,3,Credit Card,Mumbai
+183,1246,2023-06-30,Home,848.17,141.3,3,Debit Card,Bangalore
+184,1202,2023-06-19,Groceries,137.95,252.31,1,COD,Mumbai
+185,1183,2023-12-22,Electronics,2073.64,288.87,3,UPI,Bangalore
+186,1122,2023-07-10,Home,142.85,,2,Credit Card,Chennai
+187,1254,2023-06-04,Electronics,1067.53,190.36,6,Credit Card,Delhi
+188,1293,2023-07-07,Clothing,1158.03,185.97,3,Credit Card,Delhi
+189,1279,2023-01-07,Electronics,1321.01,256.35,1,Credit Card,Chennai
+190,1097,2023-05-13,Clothing,1624.13,166.95,1,UPI,Pune
+191,1197,2023-08-23,Home,531.47,243.12,2,Debit Card,Hyderabad
+192,1239,2023-02-14,Groceries,240.03,157.58,1,Credit Card,Hyderabad
+193,1143,2023-11-10,Electronics,1676.41,28.11,7,UPI,Mumbai
+194,1096,2023-09-06,Home,1164.56,,4,Net Banking,Pune
+195,1200,2023-01-31,Home,2264.33,138.89,7,Net Banking,Bangalore
+196,1123,2023-01-23,Home,2252.05,51.07,6,Credit Card,Delhi
+197,1186,2023-06-09,Electronics,2360.31,39.72,6,UPI,Mumbai
+198,1258,2023-12-29,Groceries,861.53,165.28,6,Debit Card,Chennai
+199,1147,2023-06-07,Beauty,613.09,34.69,5,UPI,Pune
+200,1251,2023-02-08,Home,2125.71,97.85,3,UPI,Delhi
+201,1146,2023-03-23,Electronics,1009.23,225.93,4,Debit Card,Bangalore
+202,1147,2023-12-22,Electronics,301.19,289.69,3,UPI,Bangalore
+203,1198,2023-09-15,Groceries,2426.01,218.18,4,UPI,Hyderabad
+204,1127,2023-07-25,Beauty,2697.19,297.86,3,UPI,Mumbai
+205,1038,2023-03-18,Groceries,879.53,212.52,2,UPI,Chennai
+206,1128,2023-01-12,Groceries,388.46,95.2,7,UPI,Delhi
+207,1266,2023-10-22,Electronics,886.89,204.9,1,COD,Bangalore
+208,1150,2023-08-12,Groceries,2072.74,,1,UPI,Delhi
+209,1297,2023-01-13,Home,2848.58,117.8,7,UPI,Chennai
+210,1098,2023-02-15,Clothing,392.99,15.14,2,UPI,Delhi
+211,1262,2023-06-04,Home,234.19,213.93,4,COD,Mumbai
+212,1251,2023-04-23,Beauty,2793.11,16.29,7,Credit Card,Hyderabad
+213,1143,2023-08-21,Electronics,809.99,193.04,5,Credit Card,Delhi
+214,1111,2023-01-17,Groceries,1007.44,57.45,4,Net Banking,Pune
+215,1059,2023-12-26,Clothing,4333.89,174.03,1,Credit Card,Hyderabad
+216,1001,2023-08-11,Home,244.66,156.13,5,UPI,Chennai
+217,1253,2023-12-20,Groceries,1532.03,,3,UPI,Hyderabad
+218,1139,2023-07-07,Groceries,313.39,115.23,5,Credit Card,Delhi
+219,1036,2023-12-10,Home,614.91,184.32,4,UPI,Delhi
+220,1159,2023-12-31,Clothing,2013.43,256.1,2,Debit Card,Pune
+221,1008,2023-06-12,Beauty,965.88,267.71,3,UPI,Bangalore
+222,1232,2023-11-22,Groceries,7303.22,150.32,4,Credit Card,Pune
+223,1098,2023-03-15,Electronics,1141.61,221.24,3,UPI,Delhi
+224,1146,2023-08-21,Groceries,713.85,101.77,5,UPI,Hyderabad
+225,1207,2023-08-12,Home,531.32,109.23,1,Credit Card,Pune
+226,1130,2023-11-15,Clothing,679.9,66.39,4,COD,Pune
+227,1151,2023-03-01,Home,825.28,172.96,2,Credit Card,Bangalore
+228,1053,2023-12-01,Beauty,184.43,,7,Debit Card,Delhi
+229,1119,2023-08-10,Clothing,614.63,34.47,5,UPI,Delhi
+230,1160,2023-02-06,Beauty,886.88,,4,UPI,Chennai
+231,1115,2023-10-05,Electronics,1797.35,,2,UPI,Bangalore
+232,1074,2023-07-15,Electronics,1520.08,114.4,4,UPI,Chennai
+233,1112,2023-12-18,Electronics,1683.35,,5,UPI,Chennai
+234,1103,2023-08-30,Home,297.08,,4,UPI,Chennai
+235,1253,2023-11-20,Groceries,455.57,138.28,3,Debit Card,Mumbai
+236,1226,2023-08-07,Electronics,1427.53,,5,UPI,Chennai
+237,1111,2023-07-11,Clothing,1011.95,,4,Credit Card,Pune
+238,1098,2023-01-17,Groceries,219.39,207.95,7,Credit Card,Hyderabad
+239,1152,2023-01-12,Electronics,2128.6,,1,Credit Card,Pune
+240,1193,2023-07-12,Home,1850.36,78.87,4,Credit Card,Pune
+241,1162,2023-01-22,Home,1174.0,,3,UPI,Delhi
+242,1207,2023-04-30,Groceries,265.53,122.05,2,UPI,Mumbai
+243,1168,2023-07-29,Beauty,2033.57,87.51,7,Debit Card,Chennai
+244,1160,2023-11-02,Clothing,1297.66,132.24,2,Net Banking,Delhi
+245,1067,2023-09-27,Beauty,2047.69,37.38,7,UPI,Bangalore
+246,1288,2023-07-11,Groceries,1745.97,46.45,2,UPI,Bangalore
+247,1276,2023-06-24,Groceries,2016.47,130.19,1,Net Banking,Delhi
+248,1134,2023-10-12,Electronics,1114.79,,3,UPI,Hyderabad
+249,1194,2023-07-23,Home,371.44,271.09,5,Credit Card,Delhi
+250,1127,2023-06-13,Clothing,1426.61,202.8,2,Credit Card,Delhi
+251,1032,2023-09-08,Electronics,1289.6,40.51,7,UPI,Mumbai
+252,1175,2023-08-15,Electronics,1703.93,,3,Credit Card,Bangalore
+253,1021,2023-01-07,Groceries,418.42,194.27,4,Credit Card,Bangalore
+254,1237,2023-01-29,Groceries,368.26,243.67,1,UPI,Chennai
+255,1157,2023-02-02,Groceries,2890.21,,3,Credit Card,Pune
+256,1037,2023-05-14,Home,1775.45,261.78,3,Debit Card,Delhi
+257,1229,2023-03-20,Electronics,3100.14,,5,Credit Card,Delhi
+258,1050,2023-02-27,Groceries,1847.13,212.38,3,UPI,Hyderabad
+259,1263,2023-01-26,Electronics,1319.04,87.79,5,Credit Card,Bangalore
+260,1282,2023-08-14,Home,1379.04,299.81,1,Debit Card,Hyderabad
+261,1026,2023-10-12,Home,2843.25,60.85,1,Debit Card,Mumbai
+262,1225,2023-01-04,Groceries,1246.6,12.93,4,Debit Card,Chennai
+263,1276,2023-04-09,Groceries,1360.88,53.15,5,UPI,Hyderabad
+264,1285,2023-02-08,Clothing,390.2,235.0,5,Debit Card,Bangalore
+265,1096,2023-09-28,Groceries,1051.77,139.57,2,Debit Card,Mumbai
+266,1283,2023-10-12,Home,1785.22,139.78,2,UPI,Delhi
+267,1146,2023-06-06,Groceries,640.2,,4,Credit Card,Mumbai
+268,1003,2023-03-16,Clothing,540.16,276.69,1,UPI,Pune
+269,1034,2023-10-15,Groceries,725.95,,6,Debit Card,Hyderabad
+270,1191,2023-05-10,Home,448.7,70.63,2,UPI,Bangalore
+271,1048,2023-06-24,Clothing,385.35,256.06,3,Credit Card,Hyderabad
+272,1016,2023-03-25,Electronics,961.75,272.75,1,COD,Delhi
+273,1171,2023-01-22,Groceries,3136.06,167.06,6,Debit Card,Delhi
+274,1219,2023-01-27,Home,1137.84,192.53,3,COD,Bangalore
+275,1157,2023-07-14,Electronics,365.79,84.51,7,COD,Pune
+276,1045,2023-12-03,Electronics,299.11,242.23,5,UPI,Chennai
+277,1005,2023-08-24,Electronics,1614.49,,1,Debit Card,Mumbai
+278,1098,2023-04-02,Clothing,634.07,156.02,7,Credit Card,Mumbai
+279,1232,2023-01-21,Groceries,2327.03,27.43,4,Net Banking,Delhi
+280,1036,2023-10-30,Groceries,1365.85,275.62,5,UPI,Hyderabad
+281,1279,2023-12-23,Groceries,2133.98,188.48,5,COD,Hyderabad
+282,1180,2023-03-25,Groceries,660.86,65.88,3,Debit Card,Pune
+283,1094,2023-09-19,Clothing,1557.59,185.85,7,Debit Card,Chennai
+284,1098,2023-05-27,Home,589.93,,5,UPI,Hyderabad
+285,1187,2023-09-14,Groceries,3419.61,162.47,2,UPI,Mumbai
+286,1115,2023-02-27,Beauty,1459.96,218.25,1,Debit Card,Hyderabad
+287,1190,2023-01-15,Groceries,544.78,,2,UPI,Chennai
+288,1252,2023-06-11,Electronics,573.85,284.85,3,Net Banking,Mumbai
+289,1160,2023-06-12,Groceries,421.24,25.57,6,UPI,Hyderabad
+290,1255,2023-11-16,Clothing,1554.52,40.81,3,Debit Card,Mumbai
+291,1127,2023-10-08,Groceries,456.18,60.36,1,Credit Card,Delhi
+292,1017,2023-10-07,Electronics,1216.54,,5,Debit Card,Delhi
+293,1280,2023-01-12,Electronics,483.87,197.22,7,Debit Card,Pune
+294,1222,2023-10-01,Home,1552.54,,7,UPI,Delhi
+295,1053,2023-09-28,Electronics,2320.49,222.53,4,UPI,Hyderabad
+296,1057,2023-07-27,Home,1900.23,157.42,3,UPI,Chennai
+297,1173,2023-01-27,Clothing,1879.8,297.63,1,Credit Card,Mumbai
+298,1279,2023-03-13,Groceries,473.5,,4,Credit Card,Bangalore
+299,1113,2023-03-01,Groceries,223.04,251.63,5,Debit Card,Delhi
+300,1287,2023-05-25,Groceries,1565.57,133.77,6,Credit Card,Delhi
+301,1150,2023-04-03,Clothing,839.3,,3,Credit Card,Bangalore
+302,1126,2023-11-05,Electronics,933.49,220.91,6,Credit Card,Bangalore
+303,1154,2023-01-08,Electronics,200.97,193.79,1,UPI,Hyderabad
+304,1272,2023-03-20,Clothing,520.64,50.75,6,UPI,Mumbai
+305,1103,2023-01-27,Groceries,339.11,,6,COD,Delhi
+306,1298,2023-06-23,Beauty,2768.2,,1,Net Banking,Chennai
+307,1245,2023-02-19,Home,586.7,256.22,1,UPI,Hyderabad
+308,1175,2023-07-18,Home,1173.94,138.66,3,Credit Card,Hyderabad
+309,1038,2023-12-15,Home,131.71,,6,Net Banking,Chennai
+310,1169,2023-06-30,Groceries,1598.99,,4,Credit Card,Chennai
+311,1246,2023-01-24,Clothing,570.15,169.15,1,UPI,Pune
+312,1025,2023-11-12,Beauty,2813.39,240.92,5,UPI,Chennai
+313,1012,2023-02-15,Groceries,2915.37,,6,Credit Card,Bangalore
+314,1035,2023-01-15,Groceries,535.17,288.46,1,COD,Delhi
+315,1172,2023-06-02,Electronics,2941.69,201.5,4,Debit Card,Pune
+316,1019,2023-08-10,Clothing,6768.01,,7,UPI,Bangalore
+317,1263,2023-07-25,Groceries,2315.42,16.84,3,UPI,Pune
+318,1141,2023-09-30,Home,2501.2,129.98,6,Debit Card,Delhi
+319,1142,2023-08-24,Groceries,625.63,96.78,7,Net Banking,Pune
+320,1091,2023-12-06,Clothing,1273.62,226.95,1,Debit Card,Bangalore
+321,1287,2023-08-16,Beauty,183.55,70.4,1,Debit Card,Mumbai
+322,1214,2023-01-09,Electronics,339.68,69.51,5,UPI,Delhi
+323,1050,2023-06-15,Clothing,8334.9,64.96,5,Net Banking,Hyderabad
+324,1152,2023-11-15,Electronics,737.57,46.43,6,Debit Card,Delhi
+325,1185,2023-08-02,Groceries,1854.87,100.19,7,UPI,Delhi
+326,1062,2023-04-27,Beauty,2205.0,,7,Debit Card,Delhi
+327,1189,2023-12-10,Clothing,2637.51,,1,UPI,Mumbai
+328,1124,2023-03-13,Home,7320.98,223.22,6,UPI,Bangalore
+329,1149,2023-03-05,Clothing,462.69,241.23,1,UPI,Hyderabad
+330,1057,2023-07-24,Beauty,174.43,,5,UPI,Bangalore
+331,1179,2023-07-28,Home,867.59,267.36,4,UPI,Pune
+332,1169,2023-03-13,Home,436.23,49.82,2,Credit Card,Pune
+333,1270,2023-10-04,Electronics,168.22,107.54,2,Credit Card,Pune
+334,1053,2023-10-01,Beauty,773.35,,1,Credit Card,Bangalore
+335,1100,2023-11-16,Groceries,2073.52,39.84,7,UPI,Chennai
+336,1263,2023-12-04,Clothing,1084.15,221.74,5,UPI,Mumbai
+337,1052,2023-04-05,Home,646.12,122.3,3,Debit Card,Chennai
+338,1059,2023-06-15,Clothing,1351.77,237.48,3,Credit Card,Pune
+339,1107,2023-02-01,Home,488.79,,2,UPI,Mumbai
+340,1004,2023-01-11,Electronics,246.38,62.45,4,Net Banking,Bangalore
+341,1102,2023-10-28,Groceries,1909.51,223.08,2,Debit Card,Pune
+342,1195,2023-08-05,Groceries,1398.98,,1,Net Banking,Bangalore
+343,1261,2023-10-16,Electronics,1810.11,152.33,4,Credit Card,Mumbai
+344,1046,2023-04-12,Electronics,250.66,31.9,3,UPI,Bangalore
+345,1143,2023-09-24,Electronics,2325.69,189.18,7,Debit Card,Bangalore
+346,1268,2023-08-02,Groceries,1306.61,203.1,5,UPI,Hyderabad
+347,1123,2023-06-28,Clothing,1170.47,,5,Credit Card,Chennai
+348,1105,2023-03-29,Groceries,1451.76,286.78,1,UPI,Chennai
+349,1157,2023-02-10,Clothing,2614.95,263.51,2,Net Banking,Chennai
+350,1146,2023-03-17,Clothing,1189.98,215.3,1,UPI,Delhi
+351,1144,2023-02-15,Groceries,1130.72,216.96,5,COD,Hyderabad
+352,1119,2023-06-09,Electronics,5736.6,83.2,3,Net Banking,Pune
+353,1274,2023-03-21,Beauty,1871.3,200.48,5,Credit Card,Pune
+354,1091,2023-11-06,Home,836.71,67.48,4,Debit Card,Pune
+355,1057,2023-03-27,Groceries,1577.73,51.76,7,Debit Card,Chennai
+356,1228,2023-04-02,Groceries,790.64,299.85,7,Net Banking,Chennai
+357,1116,2023-05-28,Home,376.89,190.49,6,Credit Card,Hyderabad
+358,1278,2023-06-10,Electronics,1167.14,134.99,5,Debit Card,Bangalore
+359,1126,2023-07-21,Electronics,3449.35,93.57,5,Credit Card,Chennai
+360,1128,2023-08-30,Electronics,3388.45,185.14,7,COD,Pune
+361,1057,2023-12-19,Home,739.09,24.38,6,Credit Card,Bangalore
+362,1121,2023-01-02,Electronics,1122.11,37.46,4,Credit Card,Chennai
+363,1000,2023-08-13,Groceries,380.35,19.53,2,Debit Card,Mumbai
+364,1238,2023-10-16,Beauty,6640.9,154.76,5,Net Banking,Delhi
+365,1289,2023-08-21,Home,5048.45,184.18,7,Credit Card,Chennai
+366,1095,2023-03-18,Groceries,1490.1,28.12,1,UPI,Mumbai
+367,1125,2023-04-26,Electronics,2254.11,,5,Credit Card,Hyderabad
+368,1117,2023-06-03,Home,1769.74,,1,COD,Mumbai
+369,1047,2023-04-13,Groceries,1213.2,208.71,4,Debit Card,Hyderabad
+370,1088,2023-07-13,Electronics,140.79,294.75,5,Net Banking,Chennai
+371,1236,2023-06-15,Electronics,1008.84,,7,UPI,Hyderabad
+372,1271,2023-12-25,Beauty,1481.93,,4,Credit Card,Mumbai
+373,1188,2023-03-31,Groceries,1560.1,,4,Debit Card,Delhi
+374,1191,2023-06-23,Home,842.41,151.16,2,Net Banking,Bangalore
+375,1068,2023-05-02,Home,3524.42,213.67,5,UPI,Bangalore
+376,1277,2023-05-23,Groceries,402.78,257.07,1,Net Banking,Delhi
+377,1246,2023-04-16,Groceries,1032.64,113.42,1,Credit Card,Pune
+378,1075,2023-11-01,Clothing,1572.85,85.81,5,UPI,Bangalore
+379,1153,2023-12-26,Clothing,1546.36,284.51,6,UPI,Chennai
+380,1143,2023-11-13,Clothing,1391.13,220.63,2,UPI,Pune
+381,1085,2023-05-03,Home,606.38,,2,Credit Card,Chennai
+382,1184,2023-01-09,Groceries,359.82,140.23,2,UPI,Mumbai
+383,1284,2023-09-19,Home,1412.52,240.97,1,UPI,Mumbai
+384,1219,2023-03-14,Clothing,1242.46,168.65,4,Net Banking,Pune
+385,1068,2023-12-25,Groceries,444.2,,7,UPI,Pune
+386,1046,2023-08-11,Groceries,1591.5,,6,UPI,Pune
+387,1093,2023-02-10,Groceries,1012.74,,2,Credit Card,Pune
+388,1237,2023-07-23,Groceries,1517.28,166.62,1,Credit Card,Hyderabad
+389,1203,2023-09-21,Electronics,2315.51,227.39,1,Debit Card,Pune
+390,1217,2023-11-24,Groceries,479.2,,4,Credit Card,Pune
+391,1038,2023-06-27,Electronics,297.2,192.66,5,Debit Card,Mumbai
+392,1099,2023-12-14,Clothing,2010.07,114.34,5,Debit Card,Chennai
+393,1288,2023-11-14,Groceries,1235.0,,7,UPI,Mumbai
+394,1253,2023-03-25,Groceries,1595.33,291.43,7,UPI,Bangalore
+395,1221,2023-11-14,Beauty,2385.34,42.59,2,Credit Card,Hyderabad
+396,1022,2023-04-21,Groceries,2088.31,87.87,7,Credit Card,Hyderabad
+397,1249,2023-09-08,Groceries,3984.58,152.8,2,Debit Card,Chennai
+398,1009,2023-01-07,Groceries,1142.28,252.65,6,Credit Card,Pune
+399,1245,2023-03-25,Groceries,1063.48,,7,Credit Card,Mumbai
+400,1099,2023-07-27,Electronics,753.77,90.32,4,UPI,Bangalore
+401,1289,2023-11-10,Clothing,364.24,29.08,2,UPI,Mumbai
+402,1179,2023-01-22,Clothing,1116.06,214.74,4,Credit Card,Pune
+403,1222,2023-01-03,Groceries,606.24,,1,Credit Card,Pune
+404,1249,2023-05-07,Electronics,3278.65,,2,Credit Card,Delhi
+405,1146,2023-10-24,Electronics,1269.15,,1,UPI,Mumbai
+406,1095,2023-07-07,Clothing,1262.26,,3,Debit Card,Chennai
+407,1256,2023-12-28,Beauty,625.07,129.29,4,Net Banking,Mumbai
+408,1003,2023-01-14,Clothing,289.07,52.12,3,UPI,Hyderabad
+409,1015,2023-01-12,Groceries,171.71,162.05,2,Credit Card,Bangalore
+410,1279,2023-03-28,Electronics,800.59,289.26,1,COD,Chennai
+411,1246,2023-01-12,Groceries,289.03,186.23,2,UPI,Delhi
+412,1257,2023-01-25,Clothing,1260.27,,3,Credit Card,Bangalore
+413,1159,2023-10-28,Electronics,2740.09,253.92,2,UPI,Bangalore
+414,1151,2023-08-31,Groceries,2867.82,20.43,6,Debit Card,Hyderabad
+415,1177,2023-05-02,Electronics,1449.21,200.94,5,UPI,Hyderabad
+416,1162,2023-05-27,Electronics,390.74,93.16,3,COD,Hyderabad
+417,1032,2023-02-24,Electronics,2465.3,172.29,2,Debit Card,Chennai
+418,1178,2023-08-26,Electronics,2676.85,91.01,1,Debit Card,Mumbai
+419,1100,2023-12-22,Electronics,401.76,111.17,2,Debit Card,Bangalore
+420,1267,2023-06-22,Clothing,1693.67,277.72,1,Credit Card,Mumbai
+421,1064,2023-08-09,Home,566.12,69.93,5,Credit Card,Mumbai
+422,1167,2023-04-29,Groceries,2041.27,263.49,2,Net Banking,Hyderabad
+423,1042,2023-11-05,Groceries,7196.12,,7,COD,Mumbai
+424,1043,2023-07-02,Clothing,262.58,36.35,7,Credit Card,Bangalore
+425,1284,2023-10-15,Beauty,2867.9,,5,COD,Bangalore
+426,1011,2023-11-03,Clothing,1366.44,192.86,3,Credit Card,Pune
+427,1094,2023-10-27,Electronics,4501.43,226.7,1,Credit Card,Delhi
+428,1252,2023-03-23,Groceries,1045.61,70.73,7,Credit Card,Chennai
+429,1241,2023-07-30,Electronics,2421.83,165.75,6,UPI,Mumbai
+430,1034,2023-05-30,Clothing,218.31,223.79,3,UPI,Chennai
+431,1214,2023-02-06,Groceries,684.07,191.92,1,UPI,Chennai
+432,1089,2023-12-18,Home,160.24,146.79,5,Credit Card,Chennai
+433,1263,2023-11-08,Groceries,4661.24,288.34,7,Credit Card,Pune
+434,1092,2023-12-27,Groceries,2280.75,206.09,4,Credit Card,Chennai
+435,1089,2023-02-28,Beauty,2371.1,273.25,2,COD,Pune
+436,1114,2023-05-11,Electronics,3443.07,221.63,5,Credit Card,Bangalore
+437,1104,2023-07-21,Clothing,397.73,223.28,1,Credit Card,Mumbai
+438,1195,2023-08-31,Clothing,674.53,33.21,1,UPI,Pune
+439,1113,2023-02-04,Clothing,271.42,114.24,1,UPI,Delhi
+440,1074,2023-04-03,Clothing,408.07,,1,Debit Card,Chennai
+441,1216,2023-07-26,Beauty,610.65,,2,Credit Card,Delhi
+442,1276,2023-12-19,Groceries,846.83,,3,Debit Card,Bangalore
+443,1248,2023-11-28,Groceries,558.29,104.57,6,UPI,Bangalore
+444,1163,2023-11-01,Clothing,349.74,73.93,4,Credit Card,Hyderabad
+445,1191,2023-12-16,Home,343.97,278.33,2,UPI,Chennai
+446,1226,2023-08-01,Beauty,382.18,261.71,1,UPI,Hyderabad
+447,1176,2023-06-08,Home,4452.72,154.91,2,UPI,Delhi
+448,1098,2023-01-24,Electronics,1926.01,27.79,5,UPI,Mumbai
+449,1035,2023-10-20,Groceries,4173.51,217.22,6,UPI,Hyderabad
+450,1095,2023-01-04,Electronics,991.23,190.79,1,UPI,Bangalore
+451,1151,2023-08-08,Clothing,557.49,291.46,4,COD,Chennai
+452,1150,2023-12-30,Electronics,2069.13,172.1,1,UPI,Delhi
+453,1189,2023-01-20,Groceries,747.88,107.55,6,UPI,Pune
+454,1223,2023-06-01,Groceries,627.95,160.52,4,UPI,Bangalore
+455,1036,2023-02-19,Electronics,385.55,293.99,6,Credit Card,Pune
+456,1267,2023-06-26,Clothing,361.67,211.95,4,UPI,Mumbai
+457,1182,2023-04-06,Groceries,596.6,,3,Net Banking,Chennai
+458,1012,2023-04-15,Clothing,816.8,79.8,7,COD,Mumbai
+459,1278,2023-09-07,Electronics,1510.01,225.64,3,UPI,Mumbai
+460,1216,2023-04-27,Clothing,251.53,227.58,2,Credit Card,Chennai
+461,1285,2023-12-20,Home,420.64,,2,UPI,Chennai
+462,1272,2023-08-16,Electronics,2272.73,150.28,4,Debit Card,Pune
+463,1061,2023-03-07,Electronics,274.69,95.43,1,Credit Card,Mumbai
+464,1083,2023-12-01,Clothing,742.44,,7,UPI,Delhi
+465,1216,2023-09-19,Beauty,2449.95,17.51,5,UPI,Pune
+466,1186,2023-10-22,Groceries,479.0,,5,Debit Card,Chennai
+467,1018,2023-08-31,Groceries,305.63,,1,Credit Card,Bangalore
+468,1176,2023-07-05,Clothing,1017.23,,1,UPI,Pune
+469,1099,2023-09-03,Groceries,658.16,,3,Debit Card,Hyderabad
+470,1232,2023-05-05,Electronics,1169.51,265.61,5,Credit Card,Delhi
+471,1075,2023-09-25,Groceries,2238.37,,4,Net Banking,Pune
+472,1264,2023-05-11,Beauty,452.02,186.28,6,UPI,Chennai
+473,1283,2023-08-25,Groceries,1181.0,,2,Debit Card,Chennai
+474,1205,2023-01-18,Home,1038.07,206.18,6,Debit Card,Delhi
+475,1222,2023-02-09,Groceries,461.69,,3,UPI,Hyderabad
+476,1051,2023-01-21,Electronics,1443.79,247.44,5,Debit Card,Pune
+477,1143,2023-08-13,Beauty,579.65,,7,Credit Card,Pune
+478,1068,2023-12-21,Electronics,1002.93,200.24,1,COD,Mumbai
+479,1098,2023-10-09,Groceries,363.03,108.93,7,UPI,Bangalore
+480,1024,2023-01-08,Electronics,812.5,,7,Debit Card,Chennai
+481,1052,2023-04-10,Electronics,504.14,169.43,5,Credit Card,Pune
+482,1150,2023-08-28,Clothing,2304.74,,4,COD,Pune
+483,1143,2023-03-28,Clothing,362.4,,3,UPI,Pune
+484,1056,2023-10-25,Groceries,772.79,,1,COD,Hyderabad
+485,1038,2023-01-14,Groceries,913.94,292.68,6,COD,Bangalore
+486,1108,2023-11-30,Electronics,1640.21,249.42,4,UPI,Pune
+487,1180,2023-01-02,Electronics,1220.79,27.4,6,Net Banking,Delhi
+488,1041,2023-10-20,Groceries,1594.3,119.11,2,COD,Chennai
+489,1185,2023-11-21,Clothing,2011.97,278.42,3,UPI,Mumbai
+490,1222,2023-02-10,Groceries,2507.37,,4,Credit Card,Delhi
+491,1121,2023-11-14,Groceries,737.04,202.01,4,Credit Card,Chennai
+492,1132,2023-11-12,Home,1079.69,,6,UPI,Hyderabad
+493,1162,2023-04-21,Groceries,2431.91,,1,UPI,Bangalore
+494,1214,2023-01-14,Clothing,5657.08,,2,UPI,Bangalore
+495,1220,2023-08-19,Groceries,2726.5,,6,UPI,Chennai
+496,1234,2023-03-25,Clothing,695.24,108.51,4,Credit Card,Delhi
+497,1145,2023-05-10,Clothing,434.54,218.52,3,UPI,Mumbai
+498,1238,2023-08-19,Home,900.58,,4,Net Banking,Hyderabad
+499,1075,2023-11-22,Clothing,1807.09,82.47,5,Debit Card,Chennai
+500,1008,2023-05-25,Home,884.07,113.31,3,UPI,Hyderabad
+501,1073,2023-12-11,Home,963.07,61.39,3,Debit Card,Bangalore
+502,1252,2023-01-28,Home,2304.9,,4,Debit Card,Pune
+503,1229,2023-03-07,Beauty,683.18,188.71,1,COD,Pune
+504,1006,2023-06-12,Clothing,2511.58,150.03,3,UPI,Mumbai
+505,1173,2023-08-17,Clothing,723.68,123.19,5,UPI,Hyderabad
+506,1140,2023-09-18,Groceries,761.41,273.63,6,COD,Chennai
+507,1167,2023-06-13,Clothing,814.14,,1,COD,Mumbai
+508,1169,2023-10-28,Groceries,1804.84,233.04,1,Debit Card,Delhi
+509,1282,2023-10-30,Groceries,444.61,271.55,1,Debit Card,Pune
+510,1121,2023-10-14,Groceries,321.41,139.44,3,UPI,Chennai
+511,1193,2023-01-10,Clothing,3709.07,,1,Credit Card,Hyderabad
+512,1004,2023-07-14,Electronics,529.56,283.89,4,UPI,Mumbai
+513,1028,2023-04-28,Clothing,1299.44,71.56,1,UPI,Chennai
+514,1164,2023-09-27,Electronics,1106.04,160.84,5,Net Banking,Mumbai
+515,1135,2023-03-21,Home,1044.13,147.67,2,UPI,Mumbai
+516,1144,2023-04-03,Clothing,1378.9,84.93,5,Credit Card,Mumbai
+517,1216,2023-09-23,Electronics,606.37,247.39,3,COD,Hyderabad
+518,1131,2023-11-28,Electronics,1139.33,270.88,1,UPI,Chennai
+519,1291,2023-12-16,Groceries,680.59,,1,COD,Bangalore
+520,1069,2023-12-27,Groceries,1572.47,,4,COD,Bangalore
+521,1251,2023-09-14,Clothing,246.7,35.16,6,Credit Card,Hyderabad
+522,1274,2023-05-13,Electronics,1068.22,,1,UPI,Hyderabad
+523,1181,2023-10-03,Clothing,485.88,,7,UPI,Pune
+524,1166,2023-09-21,Clothing,608.95,,5,Credit Card,Mumbai
+525,1090,2023-06-20,Groceries,354.17,163.82,3,UPI,Chennai
+526,1201,2023-01-01,Groceries,400.3,,2,UPI,Chennai
+527,1018,2023-11-09,Clothing,2282.45,181.15,1,COD,Delhi
+528,1038,2023-03-05,Electronics,606.76,,2,UPI,Delhi
+529,1125,2023-10-11,Beauty,3323.79,68.25,1,Debit Card,Bangalore
+530,1172,2023-05-01,Groceries,4462.93,98.65,3,UPI,Delhi
+531,1140,2023-04-17,Groceries,1081.29,,6,Credit Card,Delhi
+532,1241,2023-06-24,Electronics,377.18,199.04,5,COD,Bangalore
+533,1219,2023-07-23,Groceries,711.14,236.05,3,UPI,Pune
+534,1125,2023-06-14,Electronics,2087.8,232.48,2,UPI,Bangalore
+535,1057,2023-11-01,Groceries,650.48,292.08,1,Debit Card,Delhi
+536,1147,2023-04-30,Beauty,227.25,92.89,2,Debit Card,Chennai
+537,1000,2023-02-13,Clothing,1272.44,30.62,5,Debit Card,Delhi
+538,1189,2023-11-08,Electronics,2292.13,110.24,7,UPI,Mumbai
+539,1190,2023-06-05,Electronics,1976.13,,3,UPI,Mumbai
+540,1116,2023-07-26,Clothing,359.03,137.05,2,COD,Mumbai
+541,1133,2023-04-18,Electronics,1535.49,247.16,2,COD,Pune
+542,1057,2023-09-08,Electronics,458.93,169.3,5,Credit Card,Hyderabad
+543,1043,2023-11-30,Home,346.4,,7,Net Banking,Mumbai
+544,1172,2023-05-10,Groceries,2628.45,284.88,1,Credit Card,Chennai
+545,1159,2023-10-20,Clothing,406.69,30.1,7,Credit Card,Pune
+546,1172,2023-01-20,Beauty,419.6,142.36,2,UPI,Hyderabad
+547,1148,2023-10-09,Electronics,219.78,186.81,5,Credit Card,Hyderabad
+548,1079,2023-10-12,Beauty,2612.46,84.2,1,Credit Card,Mumbai
+549,1212,2023-01-01,Clothing,2010.7,128.05,7,UPI,Delhi
+550,1202,2023-04-29,Home,1422.47,206.53,7,Credit Card,Bangalore
+551,1251,2023-02-04,Groceries,1808.83,75.75,7,Debit Card,Delhi
+552,1228,2023-07-17,Home,351.92,184.57,6,Debit Card,Delhi
+553,1163,2023-09-02,Beauty,792.7,212.26,1,Debit Card,Hyderabad
+554,1226,2023-02-28,Clothing,635.19,,7,COD,Hyderabad
+555,1146,2023-11-21,Beauty,407.16,,6,UPI,Pune
+556,1019,2023-06-10,Clothing,1038.94,86.29,3,Credit Card,Pune
+557,1046,2023-06-28,Clothing,3201.02,,5,Debit Card,Hyderabad
+558,1232,2023-07-25,Clothing,107.06,64.97,7,Credit Card,Chennai
+559,1013,2023-01-12,Groceries,684.46,268.75,1,UPI,Chennai
+560,1142,2023-10-03,Electronics,445.14,,6,UPI,Bangalore
+561,1000,2023-06-30,Groceries,386.4,67.42,6,Net Banking,Hyderabad
+562,1053,2023-08-30,Groceries,3016.84,137.03,3,Credit Card,Mumbai
+563,1258,2023-08-04,Home,1035.49,128.54,4,Net Banking,Pune
+564,1143,2023-09-08,Home,844.5,134.39,5,Credit Card,Hyderabad
+565,1011,2023-10-26,Clothing,1905.42,,4,Debit Card,Chennai
+566,1223,2023-05-06,Clothing,414.38,161.14,1,Net Banking,Hyderabad
+567,1271,2023-08-05,Clothing,970.6,,5,Debit Card,Chennai
+568,1155,2023-11-02,Electronics,864.51,29.02,3,Credit Card,Hyderabad
+569,1007,2023-10-12,Electronics,1151.32,221.53,1,Credit Card,Mumbai
+570,1121,2023-07-04,Clothing,9354.24,172.32,5,Net Banking,Bangalore
+571,1163,2023-02-08,Clothing,1883.74,114.11,5,Credit Card,Mumbai
+572,1089,2023-08-11,Beauty,905.73,244.42,4,Credit Card,Chennai
+573,1135,2023-07-03,Groceries,2231.2,122.54,1,UPI,Pune
+574,1185,2023-06-27,Clothing,325.62,240.83,3,COD,Pune
+575,1177,2023-10-21,Groceries,285.12,98.67,3,UPI,Delhi
+576,1027,2023-12-06,Electronics,453.46,31.13,1,Debit Card,Mumbai
+577,1219,2023-05-31,Clothing,794.37,,1,Credit Card,Hyderabad
+578,1040,2023-05-06,Groceries,962.44,124.42,6,Credit Card,Bangalore
+579,1227,2023-10-28,Groceries,1254.82,,2,Debit Card,Hyderabad
+580,1191,2023-11-04,Clothing,2969.64,90.95,4,UPI,Hyderabad
+581,1144,2023-12-02,Beauty,1007.66,,1,Credit Card,Mumbai
+582,1200,2023-08-22,Home,923.84,,1,Debit Card,Bangalore
+583,1211,2023-01-08,Groceries,174.86,22.08,2,Net Banking,Delhi
+584,1219,2023-12-07,Groceries,322.64,250.88,2,UPI,Hyderabad
+585,1239,2023-05-09,Groceries,1095.31,175.69,5,Net Banking,Bangalore
+586,1045,2023-09-21,Electronics,891.89,,7,Debit Card,Delhi
+587,1034,2023-06-06,Clothing,2398.97,,3,Net Banking,Hyderabad
+588,1252,2023-12-18,Electronics,465.2,263.6,4,Credit Card,Bangalore
+589,1081,2023-12-24,Groceries,297.35,22.6,5,Credit Card,Mumbai
+590,1255,2023-01-05,Groceries,943.31,,1,COD,Pune
+591,1196,2023-03-27,Electronics,571.35,263.97,2,Net Banking,Pune
+592,1009,2023-06-24,Beauty,357.06,228.18,6,Credit Card,Hyderabad
+593,1285,2023-10-17,Beauty,1819.43,15.12,3,UPI,Hyderabad
+594,1241,2023-07-12,Groceries,279.99,159.93,5,Credit Card,Bangalore
+595,1250,2023-11-07,Groceries,1204.77,163.58,6,Credit Card,Pune
+596,1004,2023-04-29,Home,622.96,,3,UPI,Hyderabad
+597,1118,2023-08-06,Electronics,297.66,,7,UPI,Delhi
+598,1288,2023-04-24,Home,858.16,207.7,7,Net Banking,Hyderabad
+599,1064,2023-05-25,Electronics,2172.03,70.26,6,UPI,Pune
+600,1145,2023-01-26,Home,855.28,241.7,2,Debit Card,Chennai
+601,1223,2023-05-16,Clothing,1953.25,242.88,5,UPI,Pune
+602,1238,2023-10-30,Home,339.9,130.43,5,UPI,Delhi
+603,1176,2023-08-20,Beauty,1980.16,92.23,7,UPI,Bangalore
+604,1266,2023-03-17,Electronics,386.49,,3,UPI,Delhi
+605,1281,2023-11-24,Groceries,1528.58,149.86,6,Debit Card,Chennai
+606,1062,2023-12-11,Beauty,1153.05,218.68,2,Net Banking,Chennai
+607,1216,2023-10-29,Groceries,3445.54,114.07,1,UPI,Hyderabad
+608,1282,2023-10-16,Home,742.9,,5,Credit Card,Hyderabad
+609,1176,2023-01-01,Groceries,250.15,120.92,1,Credit Card,Pune
+610,1097,2023-05-27,Clothing,142.21,98.31,2,Net Banking,Mumbai
+611,1104,2023-10-14,Clothing,2348.38,17.21,7,Debit Card,Delhi
+612,1098,2023-05-22,Electronics,1127.66,,5,Credit Card,Pune
+613,1005,2023-02-22,Home,1939.29,75.89,5,Debit Card,Mumbai
+614,1196,2023-10-31,Clothing,451.55,127.86,6,Net Banking,Pune
+615,1132,2023-03-10,Groceries,631.9,256.87,1,UPI,Chennai
+616,1258,2023-12-27,Groceries,203.68,,7,Credit Card,Hyderabad
+617,1022,2023-03-31,Groceries,4041.28,87.48,6,COD,Hyderabad
+618,1052,2023-08-08,Home,1563.67,,4,Debit Card,Pune
+619,1164,2023-07-11,Beauty,3365.35,75.92,1,Credit Card,Hyderabad
+620,1201,2023-03-04,Clothing,630.27,108.38,1,Credit Card,Bangalore
+621,1082,2023-03-14,Home,1397.44,154.48,4,UPI,Pune
+622,1144,2023-06-10,Home,1469.71,137.21,2,Credit Card,Chennai
+623,1084,2023-06-18,Groceries,695.48,,2,Debit Card,Pune
+624,1077,2023-03-30,Beauty,2521.51,47.83,5,Credit Card,Pune
+625,1000,2023-06-25,Electronics,3703.62,13.65,3,Debit Card,Hyderabad
+626,1050,2023-09-26,Electronics,2753.88,54.65,6,Net Banking,Chennai
+627,1172,2023-03-14,Home,1723.19,214.55,3,UPI,Pune
+628,1204,2023-09-02,Clothing,582.99,80.66,5,Credit Card,Hyderabad
+629,1259,2023-03-18,Home,573.9,145.89,3,Credit Card,Delhi
+630,1287,2023-06-08,Home,4232.95,,1,Debit Card,Chennai
+631,1033,2023-11-20,Electronics,166.41,267.18,1,UPI,Mumbai
+632,1094,2023-04-08,Home,1627.75,267.77,4,Debit Card,Bangalore
+633,1071,2023-04-12,Clothing,1534.02,226.26,4,Net Banking,Mumbai
+634,1038,2023-05-12,Groceries,1435.62,20.2,5,Credit Card,Chennai
+635,1153,2023-04-12,Groceries,5824.34,176.77,5,COD,Pune
+636,1249,2023-01-19,Beauty,680.55,238.11,7,COD,Hyderabad
+637,1161,2023-03-23,Electronics,582.57,,5,UPI,Chennai
+638,1117,2023-10-06,Groceries,330.68,169.41,1,UPI,Bangalore
+639,1258,2023-12-05,Groceries,764.79,258.75,3,COD,Chennai
+640,1267,2023-12-31,Groceries,589.03,147.49,6,COD,Hyderabad
+641,1053,2023-11-27,Groceries,764.79,11.19,7,UPI,Mumbai
+642,1235,2023-05-09,Electronics,2310.06,13.19,7,UPI,Delhi
+643,1221,2023-12-10,Clothing,3438.02,130.82,7,UPI,Mumbai
+644,1250,2023-11-06,Clothing,302.56,,5,COD,Hyderabad
+645,1111,2023-03-30,Home,638.23,,5,UPI,Hyderabad
+646,1254,2023-08-01,Clothing,3427.86,215.55,1,Credit Card,Bangalore
+647,1206,2023-05-23,Electronics,174.56,61.59,6,Net Banking,Chennai
+648,1228,2023-03-06,Beauty,382.29,267.67,1,UPI,Chennai
+649,1065,2023-03-17,Electronics,406.22,138.15,6,Debit Card,Mumbai
+650,1074,2023-07-18,Beauty,1245.27,51.43,1,UPI,Delhi
+651,1102,2023-05-23,Groceries,490.69,231.63,3,Net Banking,Delhi
+652,1191,2023-11-12,Home,4414.29,239.09,5,UPI,Bangalore
+653,1251,2023-04-03,Clothing,938.26,,2,Debit Card,Hyderabad
+654,1225,2023-11-01,Electronics,956.43,257.51,2,Debit Card,Bangalore
+655,1293,2023-08-12,Groceries,598.88,223.84,5,UPI,Chennai
+656,1097,2023-10-18,Home,1033.03,265.84,7,UPI,Pune
+657,1285,2023-04-12,Groceries,1430.34,135.83,5,Credit Card,Pune
+658,1248,2023-09-24,Electronics,1962.22,,5,UPI,Pune
+659,1165,2023-12-21,Home,1814.27,299.93,5,Net Banking,Hyderabad
+660,1029,2023-04-20,Home,1125.99,220.23,7,Net Banking,Bangalore
+661,1246,2023-11-26,Groceries,2882.59,,6,Credit Card,Mumbai
+662,1105,2023-09-22,Home,2280.6,160.31,3,Debit Card,Chennai
+663,1050,2023-01-03,Home,1919.87,180.33,2,Debit Card,Pune
+664,1080,2023-03-26,Groceries,322.65,60.52,4,Net Banking,Delhi
+665,1132,2023-10-09,Electronics,64.28,289.24,2,Credit Card,Bangalore
+666,1284,2023-11-24,Groceries,490.59,60.92,2,UPI,Chennai
+667,1137,2023-10-31,Electronics,1366.07,61.49,7,UPI,Chennai
+668,1183,2023-04-27,Clothing,718.6,275.4,1,Credit Card,Delhi
+669,1272,2023-08-09,Clothing,702.81,144.91,5,Credit Card,Delhi
+670,1068,2023-06-03,Electronics,2793.08,,5,Credit Card,Delhi
+671,1033,2023-06-02,Clothing,2766.0,183.47,5,UPI,Pune
+672,1261,2023-01-12,Electronics,3079.59,184.53,1,Debit Card,Pune
+673,1052,2023-05-13,Home,647.04,28.71,7,UPI,Bangalore
+674,1204,2023-10-31,Beauty,1673.51,292.03,3,UPI,Delhi
+675,1125,2023-10-20,Electronics,563.34,167.77,3,Credit Card,Mumbai
+676,1234,2023-10-27,Beauty,331.77,172.34,7,UPI,Chennai
+677,1042,2023-08-16,Groceries,419.94,,4,Credit Card,Delhi
+678,1239,2023-09-28,Clothing,704.46,,3,Credit Card,Chennai
+679,1110,2023-02-12,Electronics,906.45,86.65,7,Credit Card,Hyderabad
+680,1248,2023-12-09,Groceries,2263.07,93.3,3,Credit Card,Hyderabad
+681,1150,2023-11-22,Home,376.25,,5,UPI,Delhi
+682,1182,2023-10-29,Groceries,1794.29,,6,UPI,Chennai
+683,1094,2023-12-30,Electronics,1033.75,24.46,7,Net Banking,Hyderabad
+684,1007,2023-01-21,Electronics,482.52,184.99,2,Credit Card,Delhi
+685,1183,2023-04-17,Clothing,990.67,243.97,3,Credit Card,Chennai
+686,1280,2023-12-02,Clothing,591.91,55.51,3,UPI,Delhi
+687,1194,2023-10-30,Electronics,1262.85,14.36,1,Credit Card,Pune
+688,1194,2023-04-27,Clothing,957.66,100.69,4,Credit Card,Chennai
+689,1154,2023-05-04,Home,292.53,180.56,6,Credit Card,Hyderabad
+690,1092,2023-10-08,Beauty,328.75,50.1,1,Debit Card,Delhi
+691,1159,2023-10-19,Clothing,1073.43,,5,UPI,Hyderabad
+692,1060,2023-07-22,Beauty,3007.41,,2,UPI,Delhi
+693,1121,2023-02-20,Clothing,743.84,,4,Net Banking,Bangalore
+694,1050,2023-09-28,Groceries,1711.61,89.58,1,COD,Hyderabad
+695,1276,2023-11-20,Electronics,1517.86,126.01,7,UPI,Hyderabad
+696,1004,2023-10-04,Groceries,3357.07,235.72,3,Credit Card,Mumbai
+697,1091,2023-05-21,Beauty,2289.32,282.95,3,UPI,Pune
+698,1169,2023-10-02,Groceries,1073.33,259.95,4,UPI,Hyderabad
+699,1021,2023-10-17,Clothing,1387.14,173.64,3,UPI,Chennai
+700,1000,2023-11-30,Groceries,2976.89,128.98,7,UPI,Delhi
+701,1132,2023-02-21,Electronics,764.03,106.56,1,Debit Card,Bangalore
+702,1232,2023-01-27,Home,745.85,46.24,1,Credit Card,Chennai
+703,1011,2023-06-06,Groceries,121.04,40.9,3,UPI,Chennai
+704,1045,2023-08-27,Clothing,2223.25,209.62,3,UPI,Chennai
+705,1033,2023-06-05,Groceries,2165.22,85.34,5,Net Banking,Chennai
+706,1077,2023-10-18,Groceries,201.39,83.85,2,UPI,Bangalore
+707,1217,2023-05-16,Electronics,1193.06,299.48,4,Debit Card,Mumbai
+708,1072,2023-05-24,Groceries,1021.3,64.5,1,UPI,Pune
+709,1281,2023-04-16,Electronics,414.64,52.94,4,Credit Card,Hyderabad
+710,1248,2023-06-07,Groceries,4837.01,38.62,5,UPI,Chennai
+711,1046,2023-05-26,Home,410.02,,1,UPI,Hyderabad
+712,1120,2023-01-02,Home,269.52,192.08,5,UPI,Hyderabad
+713,1213,2023-03-18,Groceries,1242.19,115.92,5,UPI,Chennai
+714,1238,2023-05-12,Groceries,1789.27,,6,Credit Card,Mumbai
+715,1055,2023-03-31,Electronics,245.58,,3,Debit Card,Hyderabad
+716,1106,2023-12-11,Home,1530.05,,7,UPI,Delhi
+717,1047,2023-12-16,Clothing,1160.89,287.79,6,UPI,Hyderabad
+718,1060,2023-09-20,Groceries,235.79,249.04,4,Credit Card,Pune
+719,1025,2023-12-17,Clothing,522.25,173.8,7,Debit Card,Chennai
+720,1291,2023-04-18,Electronics,1252.12,62.1,4,COD,Bangalore
+721,1256,2023-03-15,Groceries,505.78,38.93,3,Credit Card,Hyderabad
+722,1007,2023-02-08,Electronics,3514.87,25.81,7,Credit Card,Mumbai
+723,1112,2023-06-08,Groceries,2229.39,203.29,6,Credit Card,Delhi
+724,1252,2023-03-12,Clothing,5225.17,244.19,4,COD,Delhi
+725,1179,2023-11-08,Electronics,646.79,,6,Net Banking,Bangalore
+726,1206,2023-08-29,Groceries,4349.87,25.87,3,UPI,Pune
+727,1126,2023-10-25,Electronics,733.14,165.29,7,UPI,Bangalore
+728,1055,2023-02-05,Clothing,588.37,281.37,7,UPI,Pune
+729,1213,2023-03-25,Groceries,111.99,183.31,1,Credit Card,Hyderabad
+730,1013,2023-09-20,Electronics,333.05,244.73,5,Debit Card,Chennai
+731,1027,2023-11-06,Home,1670.23,242.04,5,Credit Card,Mumbai
+732,1077,2023-06-21,Electronics,1013.83,280.32,6,UPI,Delhi
+733,1215,2023-06-22,Electronics,556.23,,7,Debit Card,Bangalore
+734,1153,2023-12-28,Groceries,1363.21,226.83,4,Net Banking,Mumbai
+735,1013,2023-02-16,Clothing,485.8,77.89,6,UPI,Pune
+736,1186,2023-05-21,Electronics,1124.25,27.38,6,Debit Card,Chennai
+737,1006,2023-04-28,Clothing,706.06,160.1,2,Credit Card,Delhi
+738,1002,2023-10-04,Clothing,2205.68,46.09,7,Net Banking,Delhi
+739,1110,2023-08-02,Home,2153.41,289.04,5,Net Banking,Pune
+740,1237,2023-08-08,Clothing,944.61,94.08,7,Credit Card,Chennai
+741,1238,2023-01-26,Home,728.45,257.35,3,Debit Card,Delhi
+742,1273,2023-01-09,Home,767.35,122.41,6,Net Banking,Chennai
+743,1293,2023-09-28,Clothing,2078.11,103.73,2,Credit Card,Delhi
+744,1226,2023-01-10,Beauty,754.32,,2,UPI,Hyderabad
+745,1014,2023-05-01,Clothing,495.44,115.36,5,Debit Card,Pune
+746,1191,2023-05-05,Beauty,388.19,123.18,5,UPI,Chennai
+747,1118,2023-06-19,Electronics,990.39,40.77,5,Credit Card,Mumbai
+748,1027,2023-03-13,Groceries,965.64,,3,Net Banking,Hyderabad
+749,1201,2023-06-01,Groceries,2463.93,93.76,2,Debit Card,Mumbai
+750,1038,2023-07-27,Clothing,576.06,,4,Credit Card,Pune
+751,1272,2023-02-18,Groceries,800.56,,3,UPI,Delhi
+752,1230,2023-06-03,Groceries,2164.85,218.57,1,Credit Card,Mumbai
+753,1085,2023-12-13,Electronics,2179.16,226.12,6,UPI,Hyderabad
+754,1125,2023-10-20,Electronics,855.6,159.19,5,UPI,Chennai
+755,1299,2023-03-09,Groceries,789.48,105.99,2,Debit Card,Bangalore
+756,1024,2023-02-19,Groceries,598.66,252.86,6,UPI,Mumbai
+757,1144,2023-06-01,Beauty,3459.73,99.86,7,Credit Card,Bangalore
+758,1012,2023-01-19,Home,390.55,157.18,3,Credit Card,Pune
+759,1211,2023-04-10,Beauty,3405.17,126.36,1,COD,Mumbai
+760,1024,2023-03-01,Groceries,1546.91,257.97,7,Credit Card,Mumbai
+761,1067,2023-06-16,Clothing,973.05,135.26,3,UPI,Chennai
+762,1066,2023-07-21,Electronics,279.85,121.97,3,UPI,Delhi
+763,1232,2023-12-11,Home,935.59,210.05,4,Credit Card,Hyderabad
+764,1108,2023-05-26,Groceries,738.59,184.71,6,Credit Card,Hyderabad
+765,1145,2023-06-13,Electronics,418.97,41.1,4,Credit Card,Hyderabad
+766,1110,2023-08-30,Clothing,1425.97,157.37,3,Credit Card,Pune
+767,1227,2023-03-10,Beauty,4320.81,223.29,1,UPI,Delhi
+768,1110,2023-06-24,Groceries,1164.16,297.7,2,Credit Card,Bangalore
+769,1033,2023-02-18,Clothing,1578.28,,2,Credit Card,Hyderabad
+770,1110,2023-04-18,Groceries,250.09,117.38,7,UPI,Bangalore
+771,1263,2023-08-14,Electronics,848.86,75.58,6,UPI,Delhi
+772,1235,2023-06-10,Clothing,279.44,263.12,5,UPI,Pune
+773,1082,2023-04-29,Clothing,1237.56,246.22,5,UPI,Delhi
+774,1041,2023-05-29,Electronics,3641.11,77.84,2,Debit Card,Chennai
+775,1100,2023-05-30,Home,1555.86,68.18,3,UPI,Hyderabad
+776,1005,2023-10-20,Clothing,386.9,,3,UPI,Pune
+777,1179,2023-05-23,Home,653.59,101.34,4,UPI,Chennai
+778,1281,2023-06-09,Home,1087.98,98.86,6,COD,Hyderabad
+779,1225,2023-01-11,Electronics,738.42,54.16,4,Net Banking,Delhi
+780,1228,2023-05-18,Groceries,2228.35,86.55,5,UPI,Delhi
+781,1288,2023-03-19,Groceries,2086.75,133.98,2,UPI,Mumbai
+782,1149,2023-03-18,Home,1234.58,222.52,7,UPI,Mumbai
+783,1276,2023-09-11,Electronics,646.05,,3,Credit Card,Delhi
+784,1197,2023-09-15,Groceries,649.79,105.3,2,UPI,Delhi
+785,1069,2023-11-16,Groceries,191.29,,1,Debit Card,Bangalore
+786,1111,2023-10-18,Clothing,654.02,148.7,2,Credit Card,Bangalore
+787,1003,2023-09-20,Electronics,819.63,,1,Net Banking,Chennai
+788,1094,2023-03-26,Groceries,1590.76,150.83,4,UPI,Mumbai
+789,1151,2023-05-26,Groceries,1384.09,214.21,4,Net Banking,Mumbai
+790,1136,2023-11-19,Clothing,341.22,,5,Debit Card,Delhi
+791,1246,2023-02-11,Groceries,757.55,12.84,2,UPI,Delhi
+792,1242,2023-05-05,Clothing,387.75,,2,Credit Card,Chennai
+793,1030,2023-06-16,Groceries,469.68,165.34,1,UPI,Pune
+794,1039,2023-08-29,Electronics,2388.45,,4,UPI,Pune
+795,1228,2023-10-07,Home,196.38,11.42,1,UPI,Pune
+796,1035,2023-07-07,Clothing,889.98,281.63,4,Credit Card,Mumbai
+797,1222,2023-10-29,Clothing,430.0,,1,Credit Card,Bangalore
+798,1005,2023-01-19,Electronics,2808.64,,4,COD,Pune
+799,1219,2023-03-09,Electronics,1142.13,150.03,1,UPI,Hyderabad
+800,1074,2023-08-06,Groceries,605.79,201.21,7,COD,Chennai
+801,1003,2023-04-12,Clothing,899.62,158.1,4,UPI,Pune
+802,1133,2023-02-11,Home,1627.82,148.34,6,Debit Card,Hyderabad
+803,1117,2023-10-15,Electronics,3890.48,252.12,1,UPI,Pune
+804,1093,2023-06-16,Clothing,537.84,229.21,2,UPI,Bangalore
+805,1061,2023-04-19,Clothing,2735.78,150.19,5,Net Banking,Bangalore
+806,1193,2023-02-05,Electronics,3552.26,42.37,6,UPI,Pune
+807,1202,2023-08-20,Electronics,3105.35,43.47,6,Debit Card,Hyderabad
+808,1025,2023-08-17,Clothing,1380.79,,1,Credit Card,Chennai
+809,1172,2023-12-19,Groceries,1334.52,,5,Credit Card,Hyderabad
+810,1299,2023-06-13,Clothing,766.43,149.66,2,Credit Card,Chennai
+811,1132,2023-03-14,Groceries,1806.12,207.36,6,Debit Card,Pune
+812,1117,2023-05-16,Groceries,1204.34,,2,UPI,Chennai
+813,1274,2023-12-19,Electronics,1605.75,192.37,4,Debit Card,Delhi
+814,1211,2023-03-11,Groceries,941.3,231.23,7,Net Banking,Mumbai
+815,1224,2023-07-15,Beauty,1873.87,231.93,5,UPI,Mumbai
+816,1019,2023-09-26,Groceries,2295.94,113.32,7,UPI,Bangalore
+817,1112,2023-02-18,Groceries,431.0,,3,Debit Card,Delhi
+818,1139,2023-11-12,Clothing,2349.21,242.34,4,Credit Card,Mumbai
+819,1046,2023-05-10,Home,1019.61,,5,Credit Card,Pune
+820,1000,2023-01-05,Home,2297.61,271.97,1,UPI,Chennai
+821,1089,2023-01-27,Groceries,862.29,,7,Credit Card,Chennai
+822,1141,2023-06-09,Beauty,711.79,26.88,1,UPI,Hyderabad
+823,1037,2023-05-29,Electronics,3061.98,278.83,2,Credit Card,Hyderabad
+824,1292,2023-09-21,Electronics,526.09,,6,Debit Card,Chennai
+825,1138,2023-08-18,Home,2489.11,120.08,7,UPI,Pune
+826,1258,2023-07-19,Home,944.03,228.97,3,Credit Card,Chennai
+827,1160,2023-02-19,Electronics,1121.09,,1,COD,Hyderabad
+828,1177,2023-03-08,Clothing,580.62,164.05,5,Debit Card,Mumbai
+829,1009,2023-10-27,Electronics,1126.28,38.67,7,Net Banking,Bangalore
+830,1260,2023-02-27,Clothing,615.03,245.53,7,Credit Card,Hyderabad
+831,1137,2023-09-16,Home,190.07,261.15,6,Debit Card,Pune
+832,1171,2023-12-08,Groceries,513.94,59.93,6,UPI,Mumbai
+833,1012,2023-11-22,Clothing,141.68,,5,UPI,Mumbai
+834,1167,2023-05-10,Clothing,4837.57,264.58,6,UPI,Mumbai
+835,1129,2023-08-03,Electronics,4342.78,169.33,1,Credit Card,Delhi
+836,1083,2023-06-21,Clothing,674.34,200.29,5,Net Banking,Delhi
+837,1100,2023-09-15,Groceries,1647.98,120.85,5,UPI,Mumbai
+838,1272,2023-04-12,Beauty,787.22,91.72,2,Debit Card,Pune
+839,1264,2023-07-28,Home,1399.38,,3,Debit Card,Chennai
+840,1037,2023-10-18,Electronics,2063.36,,7,Credit Card,Pune
+841,1093,2023-12-20,Home,3690.45,,2,Credit Card,Delhi
+842,1094,2023-10-13,Home,790.42,,3,Credit Card,Hyderabad
+843,1068,2023-04-26,Home,1997.08,56.09,5,UPI,Delhi
+844,1235,2023-09-21,Groceries,590.98,,7,UPI,Chennai
+845,1136,2023-05-30,Clothing,5632.76,,6,COD,Bangalore
+846,1075,2023-10-27,Clothing,160.33,,3,UPI,Delhi
+847,1034,2023-02-05,Electronics,1345.18,,5,UPI,Pune
+848,1000,2023-11-29,Electronics,1588.83,,5,Net Banking,Pune
+849,1295,2023-10-14,Electronics,1576.88,,2,UPI,Mumbai
+850,1059,2023-10-30,Groceries,334.93,98.64,2,Debit Card,Mumbai
+851,1266,2023-11-07,Groceries,3481.04,181.96,6,UPI,Mumbai
+852,1228,2023-07-27,Groceries,455.87,,4,Credit Card,Bangalore
+853,1269,2023-04-16,Electronics,1444.83,11.37,1,UPI,Chennai
+854,1285,2023-06-07,Beauty,445.28,30.99,4,UPI,Hyderabad
+855,1290,2023-05-01,Beauty,623.45,,4,Credit Card,Pune
+856,1212,2023-02-24,Home,1078.8,,7,Debit Card,Pune
+857,1164,2023-01-12,Beauty,927.88,52.63,7,Credit Card,Chennai
+858,1004,2023-05-25,Groceries,475.55,216.16,6,COD,Bangalore
+859,1077,2023-05-16,Beauty,342.95,,7,UPI,Mumbai
+860,1061,2023-01-03,Electronics,767.84,,3,Credit Card,Chennai
+861,1131,2023-05-24,Clothing,1896.03,80.45,6,Credit Card,Hyderabad
+862,1088,2023-01-30,Electronics,2979.92,273.43,6,COD,Mumbai
+863,1236,2023-08-25,Electronics,170.45,,5,UPI,Hyderabad
+864,1041,2023-10-06,Electronics,699.28,145.76,5,Credit Card,Delhi
+865,1088,2023-12-14,Groceries,280.76,267.39,5,Net Banking,Hyderabad
+866,1295,2023-04-25,Home,234.08,195.97,1,UPI,Mumbai
+867,1294,2023-04-14,Groceries,1581.65,129.96,3,Net Banking,Delhi
+868,1103,2023-04-28,Electronics,1356.92,,3,UPI,Mumbai
+869,1013,2023-01-05,Home,459.54,,5,Debit Card,Pune
+870,1287,2023-12-26,Groceries,538.59,157.59,4,COD,Mumbai
+871,1178,2023-09-05,Clothing,262.79,,1,Debit Card,Delhi
+872,1124,2023-12-30,Groceries,2276.79,291.0,4,Credit Card,Hyderabad
+873,1022,2023-11-17,Clothing,4469.9,280.59,2,UPI,Pune
+874,1062,2023-05-01,Clothing,330.67,262.49,3,COD,Bangalore
+875,1142,2023-10-13,Beauty,464.94,,3,Credit Card,Bangalore
+876,1152,2023-05-29,Clothing,2568.67,210.48,4,UPI,Bangalore
+877,1144,2023-03-25,Groceries,3244.97,271.82,1,Debit Card,Bangalore
+878,1224,2023-08-19,Home,915.9,256.62,3,Credit Card,Chennai
+879,1103,2023-10-15,Groceries,133.34,130.15,4,UPI,Bangalore
+880,1103,2023-06-10,Electronics,259.23,,6,UPI,Delhi
+881,1038,2023-09-29,Electronics,1255.84,,6,UPI,Bangalore
+882,1197,2023-02-07,Electronics,804.86,177.35,7,Credit Card,Mumbai
+883,1133,2023-08-14,Groceries,249.89,196.36,1,Debit Card,Bangalore
+884,1066,2023-05-22,Clothing,1209.33,256.45,4,Credit Card,Hyderabad
+885,1178,2023-10-19,Electronics,159.64,94.83,7,Net Banking,Delhi
+886,1041,2023-05-31,Beauty,1924.85,58.57,6,Net Banking,Delhi
+887,1014,2023-04-24,Groceries,559.09,119.91,1,Debit Card,Pune
+888,1110,2023-08-25,Electronics,291.31,,7,UPI,Chennai
+889,1156,2023-03-07,Groceries,1241.1,48.42,5,Debit Card,Mumbai
+890,1288,2023-12-27,Groceries,754.37,204.96,1,Credit Card,Delhi
+891,1230,2023-12-07,Electronics,4420.41,157.52,2,Credit Card,Hyderabad
+892,1156,2023-09-15,Clothing,1207.84,219.13,5,Debit Card,Bangalore
+893,1037,2023-09-06,Home,567.3,,7,Credit Card,Delhi
+894,1096,2023-11-27,Groceries,1536.13,,4,COD,Hyderabad
+895,1288,2023-11-19,Groceries,554.11,147.05,5,UPI,Bangalore
+896,1253,2023-06-29,Clothing,2946.13,264.45,5,Debit Card,Chennai
+897,1195,2023-07-09,Electronics,639.47,,7,UPI,Delhi
+898,1085,2023-06-03,Electronics,1177.86,,4,COD,Delhi
+899,1009,2023-07-15,Clothing,170.28,117.01,4,UPI,Hyderabad
+900,1004,2023-11-07,Electronics,747.4,,6,UPI,Pune
+901,1122,2023-09-19,Electronics,2353.15,242.64,2,UPI,Mumbai
+902,1117,2023-05-23,Home,2042.71,111.14,4,Credit Card,Chennai
+903,1293,2023-12-08,Beauty,459.82,,3,UPI,Mumbai
+904,1158,2023-11-12,Home,461.54,,3,Credit Card,Delhi
+905,1227,2023-04-11,Home,2271.93,269.92,2,Credit Card,Mumbai
+906,1215,2023-09-01,Electronics,3474.96,127.3,1,UPI,Bangalore
+907,1183,2023-01-12,Beauty,357.26,142.13,7,UPI,Chennai
+908,1014,2023-08-27,Electronics,836.53,214.67,1,Net Banking,Mumbai
+909,1156,2023-02-18,Beauty,605.0,,3,Debit Card,Bangalore
+910,1135,2023-02-11,Beauty,2711.64,78.54,4,Debit Card,Hyderabad
+911,1260,2023-06-15,Groceries,187.66,201.79,2,Debit Card,Mumbai
+912,1156,2023-03-23,Beauty,420.58,,1,UPI,Chennai
+913,1046,2023-10-18,Groceries,1838.46,116.92,1,UPI,Bangalore
+914,1172,2023-06-07,Clothing,218.19,,7,UPI,Mumbai
+915,1129,2023-08-04,Clothing,1078.99,122.28,5,Net Banking,Hyderabad
+916,1094,2023-06-07,Groceries,805.31,,3,COD,Mumbai
+917,1114,2023-05-14,Electronics,650.48,252.41,4,Credit Card,Bangalore
+918,1242,2023-03-08,Groceries,664.18,39.37,2,UPI,Mumbai
+919,1291,2023-12-02,Beauty,1138.88,206.01,1,UPI,Chennai
+920,1281,2023-01-07,Electronics,278.18,82.13,7,UPI,Delhi
+921,1298,2023-01-14,Home,1249.35,14.49,5,Credit Card,Bangalore
+922,1282,2023-03-14,Beauty,2218.37,,3,UPI,Bangalore
+923,1068,2023-06-12,Beauty,1875.34,,3,COD,Bangalore
+924,1147,2023-03-07,Beauty,478.54,,7,Credit Card,Bangalore
+925,1010,2023-12-13,Groceries,413.96,,2,COD,Mumbai
+926,1253,2023-05-10,Beauty,462.66,20.56,1,Debit Card,Chennai
+927,1037,2023-07-25,Home,775.56,271.74,2,Debit Card,Hyderabad
+928,1133,2023-10-03,Electronics,849.02,31.26,7,Debit Card,Chennai
+929,1199,2023-09-13,Groceries,1624.19,,7,Debit Card,Bangalore
+930,1022,2023-09-23,Groceries,198.02,76.17,2,Debit Card,Pune
+931,1217,2023-01-25,Electronics,237.35,224.61,6,Debit Card,Mumbai
+932,1140,2023-10-08,Groceries,796.92,,5,Credit Card,Pune
+933,1103,2023-09-10,Groceries,1664.48,259.04,3,COD,Mumbai
+934,1209,2023-11-06,Electronics,549.97,213.13,6,Debit Card,Bangalore
+935,1110,2023-10-16,Groceries,1310.01,126.53,4,Debit Card,Mumbai
+936,1103,2023-06-13,Home,660.05,32.13,3,Net Banking,Bangalore
+937,1170,2023-04-05,Groceries,2753.77,222.48,3,UPI,Chennai
+938,1132,2023-09-27,Electronics,2819.47,,5,UPI,Delhi
+939,1292,2023-11-17,Electronics,668.37,10.84,4,Credit Card,Mumbai
+940,1126,2023-04-20,Clothing,429.63,12.73,1,Credit Card,Bangalore
+941,1105,2023-12-02,Beauty,755.81,,4,Net Banking,Pune
+942,1091,2023-11-06,Electronics,627.16,85.23,1,Credit Card,Bangalore
+943,1286,2023-08-26,Groceries,1534.1,194.48,4,Credit Card,Pune
+944,1050,2023-01-25,Electronics,2253.89,141.72,2,Credit Card,Mumbai
+945,1028,2023-05-21,Clothing,1397.69,260.39,7,UPI,Hyderabad
+946,1295,2023-04-27,Home,2176.12,275.92,4,Debit Card,Pune
+947,1296,2023-01-25,Groceries,725.99,299.07,6,Net Banking,Bangalore
+948,1213,2023-03-20,Electronics,466.97,54.57,6,UPI,Mumbai
+949,1266,2023-03-09,Clothing,1906.07,,5,Credit Card,Bangalore
+950,1256,2023-06-22,Electronics,778.43,87.15,7,Credit Card,Hyderabad
+951,1100,2023-01-12,Groceries,1452.03,,7,UPI,Delhi
+952,1109,2023-10-15,Groceries,665.71,156.67,1,UPI,Hyderabad
+953,1181,2023-05-08,Electronics,199.66,,3,COD,Chennai
+954,1000,2023-04-06,Clothing,5985.58,280.5,5,Credit Card,Mumbai
+955,1054,2023-04-02,Clothing,366.81,32.71,6,UPI,Hyderabad
+956,1148,2023-05-21,Beauty,5506.27,209.58,6,UPI,Delhi
+957,1136,2023-01-31,Beauty,4619.41,237.65,1,Debit Card,Bangalore
+958,1201,2023-11-30,Electronics,2092.8,,6,Debit Card,Mumbai
+959,1116,2023-01-20,Home,1559.54,49.29,6,Debit Card,Pune
+960,1153,2023-05-26,Clothing,1161.75,139.8,1,UPI,Hyderabad
+961,1290,2023-11-12,Clothing,2470.81,250.53,6,Net Banking,Delhi
+962,1062,2023-06-09,Home,634.04,,3,Credit Card,Hyderabad
+963,1243,2023-12-15,Beauty,881.62,145.65,2,UPI,Chennai
+964,1024,2023-02-12,Beauty,1250.18,89.11,5,Credit Card,Mumbai
+965,1089,2023-09-11,Groceries,863.58,144.43,3,Credit Card,Bangalore
+966,1074,2023-05-10,Clothing,902.26,,3,Net Banking,Delhi
+967,1293,2023-03-01,Home,709.08,141.99,2,COD,Hyderabad
+968,1209,2023-05-31,Clothing,1243.77,171.21,7,UPI,Mumbai
+969,1016,2023-10-14,Groceries,2458.15,127.15,5,Net Banking,Hyderabad
+970,1127,2023-01-05,Clothing,339.07,143.43,3,Debit Card,Mumbai
+971,1250,2023-09-23,Groceries,3534.62,14.4,6,COD,Chennai
+972,1178,2023-12-11,Electronics,1605.89,,2,UPI,Hyderabad
+973,1181,2023-05-10,Electronics,2294.78,136.61,7,Credit Card,Chennai
+974,1151,2023-09-24,Beauty,1095.83,193.8,5,UPI,Pune
+975,1024,2023-06-27,Electronics,1928.32,,4,Net Banking,Pune
+976,1179,2023-09-10,Groceries,250.6,107.97,1,UPI,Delhi
+977,1197,2023-02-25,Electronics,2337.01,122.55,6,Credit Card,Chennai
+978,1160,2023-03-24,Electronics,211.16,80.27,2,UPI,Mumbai
+979,1176,2023-04-09,Electronics,2720.79,278.1,1,UPI,Delhi
+980,1284,2023-05-29,Electronics,5965.4,,7,Debit Card,Hyderabad
+981,1062,2023-11-25,Home,641.88,13.89,7,Net Banking,Hyderabad
+982,1149,2023-06-05,Clothing,531.35,15.64,4,Debit Card,Mumbai
+983,1153,2023-07-09,Beauty,1871.66,,3,Net Banking,Bangalore
+984,1155,2023-09-20,Groceries,613.07,74.22,3,UPI,Bangalore
+985,1048,2023-03-21,Clothing,2519.99,243.63,5,Credit Card,Hyderabad
+986,1083,2023-09-09,Groceries,364.23,26.9,2,Credit Card,Mumbai
+987,1176,2023-04-07,Groceries,393.55,,2,UPI,Bangalore
+988,1147,2023-09-17,Home,4753.57,263.58,7,Credit Card,Chennai
+989,1117,2023-09-17,Clothing,1492.44,,5,Debit Card,Hyderabad
+990,1062,2023-04-13,Clothing,2362.9,12.61,1,Credit Card,Pune
+991,1188,2023-02-09,Home,549.46,,3,Debit Card,Chennai
+992,1048,2023-09-30,Beauty,1624.21,127.98,3,Credit Card,Mumbai
+993,1256,2023-04-11,Home,1153.4,143.42,7,UPI,Pune
+994,1223,2023-12-25,Clothing,1361.04,96.33,2,UPI,Chennai
+995,1140,2023-11-04,Home,1637.86,19.55,7,Credit Card,Bangalore
+996,1214,2023-08-09,Groceries,1202.81,,2,UPI,Bangalore
+997,1210,2023-11-04,Groceries,878.57,162.0,5,UPI,Pune
+998,1031,2023-05-04,Electronics,679.43,92.07,4,Credit Card,Delhi
+999,1157,2023-08-19,Groceries,1974.23,21.01,1,Credit Card,Hyderabad
+1000,1284,2023-06-27,Electronics,398.84,,6,UPI,Pune
+1001,1285,2023-03-04,Clothing,1561.57,149.78,4,Debit Card,Mumbai
+1002,1143,2023-04-26,Home,560.84,229.24,4,Debit Card,Hyderabad
+1003,1018,2023-07-10,Electronics,1258.05,141.17,2,UPI,Chennai
+1004,1017,2023-03-03,Electronics,1856.61,,2,Debit Card,Mumbai
+1005,1256,2023-09-13,Electronics,457.18,,2,Debit Card,Mumbai
+1006,1077,2023-01-07,Beauty,269.18,102.83,4,Debit Card,Bangalore
+1007,1174,2023-06-04,Groceries,464.46,253.12,7,Credit Card,Chennai
+1008,1193,2023-04-02,Clothing,1288.68,199.73,1,UPI,Bangalore
+1009,1112,2023-01-14,Home,2338.12,89.87,7,Debit Card,Bangalore
+1010,1113,2023-08-17,Home,142.25,290.64,2,Credit Card,Delhi
+1011,1221,2023-03-27,Clothing,1780.79,103.25,3,COD,Bangalore
+1012,1165,2023-05-13,Groceries,765.02,299.49,7,Net Banking,Hyderabad
+1013,1131,2023-07-02,Home,1047.32,298.89,1,Credit Card,Mumbai
+1014,1263,2023-03-03,Groceries,3427.72,,3,UPI,Bangalore
+1015,1054,2023-08-07,Electronics,643.11,100.69,1,UPI,Pune
+1016,1130,2023-09-03,Home,984.34,150.95,2,UPI,Hyderabad
+1017,1287,2023-08-18,Groceries,87.53,,7,Credit Card,Chennai
+1018,1265,2023-03-20,Clothing,346.15,163.13,6,UPI,Mumbai
+1019,1161,2023-05-29,Clothing,464.04,,5,Credit Card,Pune
+1020,1086,2023-05-18,Electronics,201.9,219.96,2,UPI,Pune
+1021,1054,2023-11-10,Electronics,1393.57,71.49,4,COD,Chennai
+1022,1287,2023-03-06,Home,772.98,40.48,6,UPI,Pune
+1023,1177,2023-01-13,Electronics,1174.27,209.64,4,COD,Hyderabad
+1024,1007,2023-08-01,Clothing,505.33,,1,COD,Chennai
+1025,1246,2023-08-30,Groceries,505.06,238.43,4,Credit Card,Pune
+1026,1254,2023-08-01,Electronics,1471.15,,6,Debit Card,Chennai
+1027,1053,2023-06-30,Beauty,4207.31,104.8,6,Credit Card,Chennai
+1028,1248,2023-12-04,Electronics,240.08,13.13,2,Debit Card,Bangalore
+1029,1238,2023-06-22,Clothing,2753.93,213.29,3,UPI,Bangalore
+1030,1228,2023-06-09,Clothing,1166.12,42.85,2,UPI,Bangalore
+1031,1066,2023-06-13,Electronics,1265.91,234.14,1,Credit Card,Pune
+1032,1050,2023-07-07,Electronics,1079.45,152.64,4,Credit Card,Mumbai
+1033,1096,2023-07-10,Groceries,300.3,237.44,3,Credit Card,Hyderabad
+1034,1091,2023-11-04,Beauty,227.01,179.34,7,UPI,Pune
+1035,1263,2023-09-13,Electronics,1330.29,33.91,5,Credit Card,Bangalore
+1036,1290,2023-07-02,Groceries,678.36,232.04,6,UPI,Chennai
+1037,1095,2023-04-27,Groceries,3258.58,30.24,3,UPI,Pune
+1038,1087,2023-10-09,Home,696.24,,7,UPI,Chennai
+1039,1077,2023-07-15,Clothing,415.58,59.98,3,UPI,Chennai
+1040,1287,2023-02-03,Clothing,1570.14,,2,UPI,Chennai
+1041,1119,2023-02-21,Clothing,701.67,274.36,7,Net Banking,Delhi
+1042,1164,2023-04-22,Groceries,1066.52,,5,UPI,Mumbai
+1043,1181,2023-09-09,Home,1546.13,162.87,6,Debit Card,Hyderabad
+1044,1222,2023-03-23,Electronics,2869.28,,1,UPI,Hyderabad
+1045,1006,2023-08-20,Clothing,2102.36,11.47,1,Net Banking,Bangalore
+1046,1262,2023-08-15,Beauty,1428.75,276.15,3,Credit Card,Delhi
+1047,1160,2023-08-21,Home,1494.95,67.26,7,UPI,Pune
+1048,1150,2023-08-09,Beauty,3769.85,295.39,3,Credit Card,Pune
+1049,1084,2023-02-11,Home,534.87,223.51,4,Credit Card,Hyderabad
+1050,1146,2023-01-21,Clothing,150.34,,5,Credit Card,Mumbai
+1051,1111,2023-02-11,Groceries,503.87,,6,UPI,Chennai
+1052,1035,2023-04-23,Groceries,535.91,146.78,3,COD,Bangalore
+1053,1284,2023-04-15,Electronics,1521.06,175.77,4,Credit Card,Mumbai
+1054,1187,2023-07-11,Groceries,1271.2,,7,UPI,Hyderabad
+1055,1081,2023-01-17,Groceries,1250.09,190.95,5,Debit Card,Delhi
+1056,1001,2023-04-30,Electronics,255.65,191.57,6,Credit Card,Bangalore
+1057,1196,2023-05-09,Home,1637.78,268.45,1,Net Banking,Hyderabad
+1058,1010,2023-05-10,Groceries,653.04,156.64,4,Credit Card,Pune
+1059,1233,2023-03-01,Beauty,1533.55,32.37,7,Debit Card,Bangalore
+1060,1194,2023-02-17,Electronics,1205.88,98.8,5,UPI,Hyderabad
+1061,1118,2023-01-29,Clothing,623.59,200.13,4,Net Banking,Pune
+1062,1019,2023-04-07,Groceries,330.44,79.39,3,Debit Card,Pune
+1063,1260,2023-01-10,Clothing,247.01,91.35,2,UPI,Chennai
+1064,1292,2023-08-30,Groceries,2348.11,,1,UPI,Delhi
+1065,1255,2023-11-10,Home,3102.08,,3,UPI,Chennai
+1066,1221,2023-08-20,Electronics,1545.06,157.47,3,COD,Hyderabad
+1067,1225,2023-10-04,Groceries,376.02,102.35,7,UPI,Mumbai
+1068,1052,2023-10-11,Groceries,872.05,221.97,7,Credit Card,Chennai
+1069,1279,2023-07-22,Clothing,1693.49,,5,UPI,Mumbai
+1070,1080,2023-09-04,Beauty,1880.98,,7,Credit Card,Pune
+1071,1201,2023-10-17,Home,270.97,30.33,4,Credit Card,Hyderabad
+1072,1157,2023-09-21,Groceries,145.04,,1,COD,Delhi
+1073,1119,2023-08-02,Groceries,1690.32,154.87,3,Credit Card,Mumbai
+1074,1058,2023-07-19,Groceries,580.18,,5,Net Banking,Hyderabad
+1075,1214,2023-03-20,Beauty,411.41,,1,Credit Card,Mumbai
+1076,1127,2023-12-09,Groceries,242.58,191.02,7,UPI,Chennai
+1077,1223,2023-12-10,Groceries,1106.62,48.29,7,UPI,Hyderabad
+1078,1208,2023-06-22,Home,2415.79,229.31,4,Credit Card,Chennai
+1079,1114,2023-03-10,Clothing,4071.62,,7,COD,Bangalore
+1080,1208,2023-03-28,Home,1189.95,272.44,3,Net Banking,Hyderabad
+1081,1013,2023-04-11,Electronics,986.0,,6,UPI,Mumbai
+1082,1008,2023-01-08,Clothing,305.67,110.42,3,UPI,Bangalore
+1083,1039,2023-11-29,Clothing,1036.21,244.24,3,UPI,Chennai
+1084,1236,2023-07-19,Beauty,727.6,,7,COD,Chennai
+1085,1280,2023-03-28,Home,1254.15,39.27,1,Net Banking,Mumbai
+1086,1200,2023-02-12,Groceries,768.65,,7,Debit Card,Bangalore
+1087,1245,2023-04-19,Groceries,560.8,199.25,1,Credit Card,Pune
+1088,1277,2023-06-01,Groceries,407.74,142.27,1,Credit Card,Delhi
+1089,1234,2023-01-17,Beauty,747.86,125.35,1,Credit Card,Mumbai
+1090,1003,2023-05-13,Groceries,228.97,104.16,5,UPI,Chennai
+1091,1153,2023-05-28,Clothing,480.61,294.62,2,Credit Card,Hyderabad
+1092,1028,2023-10-04,Electronics,5502.81,49.08,7,UPI,Bangalore
+1093,1108,2023-08-20,Home,899.61,101.29,5,UPI,Pune
+1094,1097,2023-11-10,Groceries,1093.82,150.79,3,Net Banking,Delhi
+1095,1214,2023-08-16,Clothing,2576.14,148.62,5,Debit Card,Hyderabad
+1096,1292,2023-05-19,Electronics,6648.93,146.7,4,Credit Card,Bangalore
+1097,1074,2023-07-30,Home,1120.78,,6,Credit Card,Pune
+1098,1145,2023-01-28,Electronics,2080.6,,1,Credit Card,Mumbai
+1099,1127,2023-02-20,Groceries,678.11,83.88,7,Debit Card,Pune
+1100,1041,2023-09-18,Beauty,691.9,275.21,4,Debit Card,Mumbai
+1101,1040,2023-09-18,Clothing,802.41,42.79,7,Debit Card,Bangalore
+1102,1033,2023-12-16,Electronics,1467.55,229.65,6,Debit Card,Pune
+1103,1016,2023-12-18,Groceries,1468.57,229.69,4,UPI,Delhi
+1104,1164,2023-01-08,Home,530.42,244.83,7,UPI,Pune
+1105,1152,2023-11-16,Groceries,246.55,267.12,3,Credit Card,Bangalore
+1106,1075,2023-05-18,Beauty,1346.9,,1,UPI,Hyderabad
+1107,1086,2023-02-07,Electronics,420.81,75.12,4,Debit Card,Hyderabad
+1108,1116,2023-04-21,Groceries,1121.7,,3,UPI,Pune
+1109,1026,2023-08-08,Groceries,1576.74,86.88,1,UPI,Pune
+1110,1286,2023-12-03,Home,1551.22,222.95,2,Credit Card,Mumbai
+1111,1133,2023-08-11,Electronics,1921.34,194.42,3,COD,Bangalore
+1112,1218,2023-05-16,Home,2742.95,263.75,5,UPI,Mumbai
+1113,1167,2023-09-13,Groceries,1065.68,,7,Debit Card,Delhi
+1114,1097,2023-12-26,Clothing,1690.31,275.37,1,Credit Card,Hyderabad
+1115,1267,2023-11-25,Electronics,1268.49,,4,UPI,Chennai
+1116,1236,2023-02-18,Home,426.9,152.3,6,Credit Card,Chennai
+1117,1172,2023-10-19,Electronics,135.23,137.2,4,Debit Card,Bangalore
+1118,1189,2023-11-20,Clothing,572.8,230.49,5,Credit Card,Bangalore
+1119,1121,2023-03-19,Clothing,848.3,131.9,7,Net Banking,Chennai
+1120,1045,2023-04-15,Home,1281.0,,5,UPI,Bangalore
+1121,1063,2023-06-18,Groceries,2412.22,,4,UPI,Hyderabad
+1122,1129,2023-08-05,Home,349.15,262.93,7,COD,Delhi
+1123,1192,2023-04-29,Clothing,328.99,30.66,6,Credit Card,Delhi
+1124,1180,2023-07-09,Groceries,4228.87,,1,Credit Card,Mumbai
+1125,1291,2023-09-12,Groceries,264.21,236.67,7,Debit Card,Hyderabad
+1126,1281,2023-09-23,Home,987.23,40.02,3,UPI,Bangalore
+1127,1028,2023-05-29,Beauty,1260.0,41.15,7,Debit Card,Bangalore
+1128,1148,2023-06-13,Electronics,1019.43,39.34,5,UPI,Mumbai
+1129,1266,2023-05-20,Groceries,235.95,13.29,5,UPI,Mumbai
+1130,1295,2023-12-13,Electronics,186.46,169.1,5,UPI,Bangalore
+1131,1010,2023-09-15,Groceries,269.77,292.28,6,Net Banking,Bangalore
+1132,1163,2023-09-26,Clothing,1263.07,,7,UPI,Hyderabad
+1133,1112,2023-06-30,Clothing,1026.22,166.82,7,Debit Card,Mumbai
+1134,1186,2023-06-09,Clothing,465.48,290.71,2,COD,Hyderabad
+1135,1294,2023-12-17,Groceries,1436.58,84.0,6,Credit Card,Pune
+1136,1231,2023-10-15,Clothing,2276.21,,1,Credit Card,Bangalore
+1137,1226,2023-10-15,Groceries,250.96,168.45,1,Credit Card,Chennai
+1138,1097,2023-08-14,Clothing,947.3,,1,UPI,Chennai
+1139,1054,2023-01-11,Electronics,1454.75,,1,Credit Card,Pune
+1140,1110,2023-01-10,Home,455.92,172.86,1,Debit Card,Bangalore
+1141,1151,2023-09-28,Clothing,522.41,31.21,4,COD,Mumbai
+1142,1245,2023-09-30,Clothing,1221.18,231.75,5,COD,Chennai
+1143,1068,2023-07-02,Groceries,2869.58,92.56,6,Net Banking,Mumbai
+1144,1288,2023-06-02,Clothing,2084.4,,4,Net Banking,Chennai
+1145,1249,2023-11-11,Electronics,1233.98,116.68,6,Credit Card,Mumbai
+1146,1035,2023-11-30,Clothing,1726.19,51.42,2,Debit Card,Chennai
+1147,1238,2023-05-04,Beauty,594.62,211.81,7,Net Banking,Mumbai
+1148,1147,2023-04-24,Groceries,1339.2,57.73,3,Credit Card,Pune
+1149,1226,2023-10-05,Groceries,816.24,228.57,5,COD,Hyderabad
+1150,1243,2023-08-01,Groceries,481.77,290.75,2,Credit Card,Mumbai
+1151,1200,2023-06-21,Electronics,1724.74,,4,Debit Card,Hyderabad
+1152,1153,2023-10-15,Clothing,1030.57,16.51,3,Debit Card,Hyderabad
+1153,1072,2023-06-23,Home,684.96,183.97,7,COD,Bangalore
+1154,1200,2023-04-23,Electronics,2966.52,,2,UPI,Pune
+1155,1295,2023-05-02,Clothing,145.39,249.38,7,Debit Card,Hyderabad
+1156,1016,2023-02-01,Clothing,594.36,26.24,7,Credit Card,Delhi
+1157,1128,2023-08-10,Clothing,345.28,149.23,6,UPI,Hyderabad
+1158,1216,2023-04-29,Beauty,1952.63,,3,Debit Card,Mumbai
+1159,1060,2023-02-08,Electronics,1730.23,,6,Credit Card,Hyderabad
+1160,1103,2023-09-25,Groceries,681.0,103.51,7,Debit Card,Mumbai
+1161,1041,2023-08-21,Electronics,1526.17,137.66,2,UPI,Mumbai
+1162,1024,2023-01-18,Beauty,841.89,251.63,7,Credit Card,Delhi
+1163,1038,2023-05-29,Electronics,1951.95,279.53,4,Debit Card,Hyderabad
+1164,1290,2023-05-29,Clothing,872.57,192.24,7,Credit Card,Hyderabad
+1165,1130,2023-05-06,Groceries,760.81,124.53,6,UPI,Chennai
+1166,1228,2023-10-29,Groceries,3439.07,83.67,3,COD,Chennai
+1167,1107,2023-12-26,Clothing,586.63,294.82,2,Credit Card,Bangalore
+1168,1171,2023-08-26,Clothing,442.01,295.08,6,Debit Card,Mumbai
+1169,1101,2023-05-15,Clothing,1273.05,,7,Credit Card,Delhi
+1170,1011,2023-05-31,Clothing,4281.04,237.84,4,Credit Card,Chennai
+1171,1274,2023-08-24,Electronics,810.47,104.48,5,Credit Card,Hyderabad
+1172,1100,2023-08-12,Groceries,329.85,246.93,4,Credit Card,Bangalore
+1173,1043,2023-07-22,Clothing,602.36,128.55,7,Credit Card,Delhi
+1174,1016,2023-09-13,Clothing,1103.1,104.76,4,Credit Card,Pune
+1175,1056,2023-03-27,Groceries,301.97,226.01,5,Credit Card,Hyderabad
+1176,1011,2023-05-30,Beauty,1368.89,33.1,4,UPI,Hyderabad
+1177,1079,2023-08-23,Groceries,7379.86,24.08,5,Credit Card,Pune
+1178,1215,2023-12-11,Electronics,832.21,139.91,7,UPI,Mumbai
+1179,1263,2023-01-22,Electronics,729.7,139.24,5,UPI,Mumbai
+1180,1148,2023-12-14,Beauty,691.4,269.74,6,COD,Chennai
+1181,1080,2023-10-12,Clothing,404.8,,6,Debit Card,Chennai
+1182,1214,2023-09-26,Electronics,2690.51,45.75,5,Debit Card,Hyderabad
+1183,1197,2023-09-15,Groceries,930.01,,2,Credit Card,Hyderabad
+1184,1199,2023-01-29,Groceries,823.81,18.62,3,COD,Chennai
+1185,1024,2023-08-01,Groceries,1584.48,,2,Debit Card,Pune
+1186,1088,2023-10-10,Clothing,935.15,201.36,5,Debit Card,Chennai
+1187,1267,2023-02-19,Electronics,1432.75,135.16,3,Credit Card,Hyderabad
+1188,1142,2023-04-05,Beauty,252.1,231.44,6,COD,Delhi
+1189,1058,2023-03-29,Clothing,2101.63,,3,Net Banking,Hyderabad
+1190,1025,2023-02-13,Groceries,3549.21,201.12,5,Net Banking,Delhi
+1191,1046,2023-10-05,Groceries,1503.56,24.63,6,UPI,Delhi
+1192,1287,2023-06-20,Groceries,3771.79,40.32,3,UPI,Hyderabad
+1193,1265,2023-07-08,Clothing,261.05,265.49,3,UPI,Bangalore
+1194,1015,2023-12-19,Clothing,916.76,,2,UPI,Chennai
+1195,1198,2023-07-03,Groceries,1368.98,249.2,3,Net Banking,Mumbai
+1196,1281,2023-01-03,Home,1282.97,258.42,7,UPI,Hyderabad
+1197,1085,2023-07-10,Beauty,686.92,279.03,5,UPI,Delhi
+1198,1249,2023-04-28,Electronics,735.14,,1,UPI,Hyderabad
+1199,1269,2023-01-19,Electronics,429.74,170.9,1,UPI,Chennai
+1200,1116,2023-01-23,Beauty,870.59,,1,UPI,Pune

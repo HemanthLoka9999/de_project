@@ -1,2 +1,2 @@
-missing_keys,duplicate_keys,invalid_rows
-{'ORDER_ITEM_ID': 0},{'ORDER_ITEM_ID': 0},0
+row_count,null_counts,duplicate_keys
+21,"{'ORDER_ID': 0, 'ORDER_ITEM_ID': 0, 'PRODUCT_ID': 0, 'SELLER_ID': 0, 'SHIPPING_LIMIT_DATE': 0, 'PRICE': 0, 'FREIGHT_VALUE': 0}",{'ORDER_ITEM_ID': 0}

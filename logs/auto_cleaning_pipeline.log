@@ -12,3 +12,65 @@
 2025-12-15 23:43:56,695 - INFO - df_order_items Validation Summary: {'missing_keys': {'ORDER_ITEM_ID': 0}, 'duplicate_keys': {'ORDER_ITEM_ID': 0}, 'invalid_rows': 0} - Line:96
 2025-12-15 23:43:56,700 - INFO - df_products Validation Summary: {'missing_keys': {'PRODUCT_ID': 0}, 'duplicate_keys': {'PRODUCT_ID': 0}, 'invalid_rows': 0} - Line:96
 2025-12-15 23:43:57,713 - INFO - Pipeline completed successfully. - Line:139
+2025-12-16 12:08:23,893 - INFO - Pipeline started - Line:142
+2025-12-16 12:08:25,870 - INFO - df_customers: Dropped 0 duplicates based on ['CUSTOMER_ID'] - Line:103
+2025-12-16 12:08:25,870 - INFO - df_customers: Final shape (99441, 5) - Line:108
+2025-12-16 12:08:26,336 - INFO - df_orders: Column 'ORDER_PURCHASE_TIMESTAMP' converted to datetime (valid ratio: 1.00) - Line:86
+2025-12-16 12:08:26,410 - INFO - df_orders: Column 'ORDER_APPROVED_AT' converted to datetime (valid ratio: 1.00) - Line:86
+2025-12-16 12:08:26,486 - INFO - df_orders: Column 'ORDER_DELIVERED_CARRIER_DATE' converted to datetime (valid ratio: 0.98) - Line:86
+2025-12-16 12:08:26,534 - INFO - df_orders: Column 'ORDER_DELIVERED_CUSTOMER_DATE' converted to datetime (valid ratio: 0.97) - Line:86
+2025-12-16 12:08:26,558 - INFO - df_orders: Column 'ORDER_ESTIMATED_DELIVERY_DATE' converted to datetime (valid ratio: 1.00) - Line:86
+2025-12-16 12:08:26,606 - INFO - df_orders: Dropped 0 duplicates based on ['ORDER_ID'] - Line:103
+2025-12-16 12:08:26,606 - INFO - df_orders: Final shape (99441, 8) - Line:108
+2025-12-16 12:08:26,801 - INFO - df_order_items: Column 'SHIPPING_LIMIT_DATE' converted to datetime (valid ratio: 1.00) - Line:86
+2025-12-16 12:08:26,812 - INFO - df_order_items: Dropped 112629 duplicates based on ['ORDER_ITEM_ID'] - Line:103
+2025-12-16 12:08:26,812 - INFO - df_order_items: Final shape (21, 7) - Line:108
+2025-12-16 12:08:26,856 - INFO - df_products: Dropped 0 duplicates based on ['PRODUCT_ID'] - Line:103
+2025-12-16 12:08:26,856 - INFO - df_products: Final shape (32951, 9) - Line:108
+2025-12-16 12:08:26,889 - INFO - df_customers: Validation completed - Line:135
+2025-12-16 12:08:26,919 - INFO - df_orders: Validation completed - Line:135
+2025-12-16 12:08:26,921 - INFO - df_order_items: Validation completed - Line:135
+2025-12-16 12:08:26,928 - INFO - df_products: Validation completed - Line:135
+2025-12-16 12:08:29,171 - INFO - Pipeline completed successfully - Line:171
+2025-12-16 12:10:12,629 - INFO - Pipeline started - Line:142
+2025-12-16 12:10:14,045 - INFO - df_customers: Dropped 0 duplicates based on ['CUSTOMER_ID'] - Line:103
+2025-12-16 12:10:14,045 - INFO - df_customers: Final shape (99441, 5) - Line:108
+2025-12-16 12:10:14,575 - INFO - df_orders: Column 'ORDER_PURCHASE_TIMESTAMP' converted to datetime (valid ratio: 1.00) - Line:86
+2025-12-16 12:10:14,637 - INFO - df_orders: Column 'ORDER_APPROVED_AT' converted to datetime (valid ratio: 1.00) - Line:86
+2025-12-16 12:10:14,706 - INFO - df_orders: Column 'ORDER_DELIVERED_CARRIER_DATE' converted to datetime (valid ratio: 0.98) - Line:86
+2025-12-16 12:10:14,781 - INFO - df_orders: Column 'ORDER_DELIVERED_CUSTOMER_DATE' converted to datetime (valid ratio: 0.97) - Line:86
+2025-12-16 12:10:14,816 - INFO - df_orders: Column 'ORDER_ESTIMATED_DELIVERY_DATE' converted to datetime (valid ratio: 1.00) - Line:86
+2025-12-16 12:10:14,863 - INFO - df_orders: Dropped 0 duplicates based on ['ORDER_ID'] - Line:103
+2025-12-16 12:10:14,864 - INFO - df_orders: Final shape (99441, 8) - Line:108
+2025-12-16 12:10:15,060 - INFO - df_order_items: Column 'SHIPPING_LIMIT_DATE' converted to datetime (valid ratio: 1.00) - Line:86
+2025-12-16 12:10:15,061 - INFO - df_order_items: Dropped 112629 duplicates based on ['ORDER_ITEM_ID'] - Line:103
+2025-12-16 12:10:15,061 - INFO - df_order_items: Final shape (21, 7) - Line:108
+2025-12-16 12:10:15,096 - INFO - df_products: Dropped 0 duplicates based on ['PRODUCT_ID'] - Line:103
+2025-12-16 12:10:15,098 - INFO - df_products: Final shape (32951, 9) - Line:108
+2025-12-16 12:10:15,126 - INFO - df_customers: Validation completed - Line:135
+2025-12-16 12:10:15,162 - INFO - df_orders: Validation completed - Line:135
+2025-12-16 12:10:15,163 - INFO - df_order_items: Validation completed - Line:135
+2025-12-16 12:10:15,169 - INFO - df_products: Validation completed - Line:135
+2025-12-16 12:10:17,491 - INFO - Pipeline completed successfully - Line:171
+2025-12-16 12:25:15,917 - INFO - Pipeline started - Line:124
+2025-12-16 12:25:18,083 - INFO - df_customers: Dropped 0 duplicates based on ['CUSTOMER_ID'] - Line:72
+2025-12-16 12:25:18,083 - INFO - df_customers: Final shape (99441, 5) - Line:73
+2025-12-16 12:25:18,630 - INFO - df_orders: Column 'ORDER_PURCHASE_TIMESTAMP' converted to datetime (valid ratio: 1.00) - Line:62
+2025-12-16 12:25:18,678 - INFO - df_orders: Column 'ORDER_APPROVED_AT' converted to datetime (valid ratio: 1.00) - Line:62
+2025-12-16 12:25:18,753 - INFO - df_orders: Column 'ORDER_DELIVERED_CARRIER_DATE' converted to datetime (valid ratio: 0.98) - Line:62
+2025-12-16 12:25:18,845 - INFO - df_orders: Column 'ORDER_DELIVERED_CUSTOMER_DATE' converted to datetime (valid ratio: 0.97) - Line:62
+2025-12-16 12:25:18,887 - INFO - df_orders: Column 'ORDER_ESTIMATED_DELIVERY_DATE' converted to datetime (valid ratio: 1.00) - Line:62
+2025-12-16 12:25:18,930 - INFO - df_orders: Dropped 0 duplicates based on ['ORDER_ID'] - Line:72
+2025-12-16 12:25:18,930 - INFO - df_orders: Final shape (99441, 8) - Line:73
+2025-12-16 12:25:19,168 - INFO - df_order_items: Column 'SHIPPING_LIMIT_DATE' converted to datetime (valid ratio: 1.00) - Line:62
+2025-12-16 12:25:19,172 - INFO - df_order_items: Dropped 112629 duplicates based on ['ORDER_ITEM_ID'] - Line:72
+2025-12-16 12:25:19,173 - INFO - df_order_items: Final shape (21, 7) - Line:73
+2025-12-16 12:25:19,275 - INFO - df_products: Dropped 0 duplicates based on ['PRODUCT_ID'] - Line:72
+2025-12-16 12:25:19,275 - INFO - df_products: Final shape (32951, 9) - Line:73
+2025-12-16 12:25:19,281 - INFO - df_orders: No invalid rows found - Line:117
+2025-12-16 12:25:19,285 - INFO - df_order_items: No invalid rows found - Line:117
+2025-12-16 12:25:19,338 - INFO - df_customers: Validation completed - Line:100
+2025-12-16 12:25:19,387 - INFO - df_orders: Validation completed - Line:100
+2025-12-16 12:25:19,391 - INFO - df_order_items: Validation completed - Line:100
+2025-12-16 12:25:19,403 - INFO - df_products: Validation completed - Line:100
+2025-12-16 12:25:21,786 - INFO - Pipeline completed successfully - Line:167

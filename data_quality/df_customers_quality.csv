@@ -1,2 +1,2 @@
-missing_keys,duplicate_keys,invalid_rows
-{'CUSTOMER_ID': 0},{'CUSTOMER_ID': 0},0
+row_count,null_counts,duplicate_keys
+99441,"{'CUSTOMER_ID': 0, 'CUSTOMER_UNIQUE_ID': 0, 'CUSTOMER_ZIP_CODE_PREFIX': 0, 'CUSTOMER_CITY': 0, 'CUSTOMER_STATE': 0}",{'CUSTOMER_ID': 0}
