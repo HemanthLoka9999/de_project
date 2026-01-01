@@ -12,3 +12,9 @@
 2025-11-25 11:04:22,265 - ERROR - Pipeline failed: [Errno 2] No such file or directory: '..\\raw\\day1_bakery_sales.csv'
 2025-11-25 11:13:10,286 - INFO - Pipeline started.
 2025-11-25 11:13:10,525 - INFO - Pipeline completed successfully.
+2026-01-01 21:44:30,888 - INFO - Pipeline started for 01_bakery_sales.csv - 103
+2026-01-01 21:44:30,892 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'data\\raw\\01_bakery_sales.csv' - 126
+2026-01-01 21:45:57,336 - INFO - Pipeline started for 01_bakery_sales.csv - 105
+2026-01-01 21:45:57,336 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'D:\\Learnings\\de_project\\etl\\data\\raw\\01_bakery_sales.csv' - 128
+2026-01-01 21:47:02,649 - INFO - Pipeline started for 01_bakery_sales.csv - 112
+2026-01-01 21:47:02,790 - INFO - Pipeline completed successfully for 01_bakery_sales.csv - 129
